@@ -134,6 +134,6 @@ Developing a pattern recognition system follows a cyclical process:
 
 
 
-### Previous Topic --> [Introduction to Machine Learning](./introduction.md) 
+### Previous Topic --> [Introduction to Machine Learning](./Introduction.md) 
 ### Next Topic --> [Linear Regression](./LinearRegressionModel.md)
 </div>
