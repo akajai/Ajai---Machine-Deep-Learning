@@ -104,13 +104,16 @@ After classification, evaluating performance is crucia:
            
     $$Precision = \frac{TP}{TP + FP}$$
 
-    **Recall**: It measures the proportion of correctly predicted positive observations out of all actual positives. "Recall is particularly important in situations where the cost of missing positive cases is high, such as missing the presence of a disease is a high risk case."        
+    **Recall**: It measures the proportion of correctly predicted positive observations out of all actual positives. "Recall is particularly important in situations where the cost of missing positive cases is high, such as missing the presence of a disease is a high risk case."
+
     $$Recall = \frac{TP}{TP + FN}$$
 
     **F1-score**: The harmonic mean of precision and recall. It is preferred for imbalanced classes because "it penalizes models that prioritize precision or recall at the expense of the other, promoting a balance that is crucial when dealing with imbalanced data."
+
     $$F1-score = 2 * \frac{Precision * Recall}{Precision + Recall}$$
 
     **Receiver Operating Characteristic (ROC) Curve**: Analyses model behaviour by plotting the True Positive Rate (TPR, same as recall) against the False Positive Rate at various threshold settings.
+
     $$FPR = \frac{FP}{FP + TN}$$
 
     **Area Under the Curve (AUC)**: The area under the ROC curve. A higher AUC value indicates a better classifier model.
@@ -118,7 +121,7 @@ After classification, evaluating performance is crucia:
     The Receiver Operating Characteristic (ROC) curve is a graph that shows how well a classification model can distinguish between two classes, while the Area Under the Curve (AUC) is a single number that summarizes the curve's overall performance.
 
 
-### Design Cycle of a Pattern Recognition System
+#### Design Cycle of a Pattern Recognition System
 
 Developing a pattern recognition system follows a cyclical process:
 
