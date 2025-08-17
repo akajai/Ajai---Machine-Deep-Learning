@@ -1,6 +1,6 @@
 <div style="text-align: justify;">
 
-## Introduction to Machine Learning
+## Introduction to Machine Learning & Data Analyses
 
 This document provides a foundational understanding of Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL), outlining their historical development, core concepts, and interrelationships. It also delves into key aspects of data analysis, including data types, quality, characteristics, and preprocessing techniques, along with methods for calculating dissimilarities
 
@@ -67,6 +67,90 @@ Reinforcement learning is about training an agent to make a sequence of decision
 3. **Robot Navigation**: RL is used to enable robots to learn how to move and navigate effectively within their environment.
 4. **Skill Acquisition**: This suggests that RL can be applied to teach machines to acquire various skills through interaction and feedback.
 5. **Learning Tasks**: This is a broader term that encompasses the general learning capabilities enabled by reinforcement learning.
+
+
+### Data Analyses
+Data analysis involves understanding the nature and quality of data, and preparing it for effective use in ML and DL models.
+
+**Types of Data**
+
+1. Quantitative (Numerical) Data: "measured in numbers."
+    - Discrete: Non-decimal numbers (e.g., number of students, number of steps).
+    - Continuous: Decimal numbers (e.g., height, width, speed, area).
+2. Qualitative (Categorical) Data: "cannot be measured in numbers, but is characterized by similarity among data points."
+    - Ordinal: Values can be text or numbers with "internal ordering" (e.g., first/second/third, grades A/B/C).
+    - Nominal: Values can be text or numbers with "no ordering" (e.g., dog/cat/elephant, black/blue/red, Asian/African/American).
+
+
+**Data Quality**
+
+Understanding and improving data quality typically improves the quality of the resulting analysis.
+
+Key Quality Issues: Noise, outliers, missing data, inconsistent data, duplicate data, and biased or unrepresentative data.
+
+- Data Quality Factors:Completeness: Is all necessary data present?
+- Timeliness: Is the data available when needed?
+- Integrity: Are relations between entities and attributes consistent?
+- Validity: Are data values within specified domains?
+- Accuracy: Does data reflect real-world objects or a verifiable source?
+- Consistency: Is data consistent between systems?
+- Uniqueness: Do duplicate records exist?
+
+**General Characteristics of Data Sets**
+
+- **Dimensionality**: The number of attributes an object possesses. High dimensionality can lead to "the curse of dimensionality," necessitating "dimensionality reduction" in preprocessing.
+- **Sparsity**: When most attributes of an object have 0 values (e.g., fewer than 1% non-zero). This is an advantage for storage and computation time.
+- **Resolution**: The level at which data is obtained. Data properties and patterns vary at different resolutions (e.g., monthly rainfall vs. daily temperature, image resolution).
+
+Terms describe the quality of the measurement process and resulting data.
+
+- **Precision**: "The closeness of repeated measurements (of the same quantity) to one another." Often measured by standard deviation.
+- **Bias**: "A systematic variation of measurements from the quantity being measured." Measured by the difference between the mean of values and the true value.
+- **Accuracy**: A general term referring to "the degree of measurement error in data," encompassing both precision and bias.
+
+
+**Data Preprocessing**
+
+- **Goal**: To "improve the data mining analysis with respect to time, cost, and quality."
+- **Techniques**:Aggregation: Combining two or more objects into a single object.
+- **Sampling**: Selecting a subset of data objects for analysis to estimate characteristics of the whole population (e.g., Simple Random Data Sampling).
+- **Dimensionality Reduction**: Eliminating irrelevant features and reducing noise by reducing the number of attributes.
+- **Feature Subset Selection**: Reducing dimensionality by selecting a subset of features, especially when redundant or irrelevant features are present.
+- **Feature Creation**: Generating new, more effective attributes from original ones, which is highly domain-specific (e.g., extracting features from images like number of white pixels or corner points).
+- **Outlier Removal**: Identifying and removing objects that "deviate significantly from the rest" as they can negatively "effect the feature learning capability of the ML algorithms."
+
+Example Preprocessing Pipeline (Iris image recognition):
+- Read RGB images.
+- Resize images.
+- Convert to grayscale images.
+- Normalize pixel values to (0,1).
+- Centering around 0 (mean=0).
+- Standardization (making unit variance).
+- Feature creation through vectorization.
+- Outlier removal.
+- Train the classifier.
+
+**Dissimilarities Between Data Objects (Distance Metrics)**
+
+Methods to find relationships among data objects based on their similarity or distance.
+
+- **Manhattan Distance ($L_1$-norm)**: Minkowski distance with P=1. "The sum of the separations." A common example is Hamming distance for binary attributes.
+
+- **Euclidean Distance ($L_2$-norm)**: The standard straight-line distance between two points in n-dimensional space.
+    
+    Formula: $d(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{k=1}^{n} (x_k - y_k)^2}$
+
+    **Properties**
+
+    - **Positivity**: $d(\mathbf{x}, \mathbf{y}) \ge 0$, and $d(\mathbf{x}, \mathbf{y}) = 0$ only if $\mathbf{x} = \mathbf{y}$.
+    - **Triangular Inequality**: $d(\mathbf{x}, \mathbf{z}) \le d(\mathbf{x}, \mathbf{y}) + d(\mathbf{y}, \mathbf{z})$.
+    - **Symmetry**: $d(\mathbf{x}, \mathbf{y}) = d(\mathbf{y}, \mathbf{x})$.
+
+- **Chebyshev Distance ($L_{\infty}$-norm)**: Minkowski distance with P=$\infty$. "The maximum difference between any attribute of the objects." It's "the maximum distance along one axis."
+
+- **Minkowski Distance**: A generalization of Euclidean distance
+
+    Formula: $d(\mathbf{x}, \mathbf{y}) = \left(\sum_{k=1}^{n} |x_k - y_k|^P\right)^{1/P}$
 
 
 
