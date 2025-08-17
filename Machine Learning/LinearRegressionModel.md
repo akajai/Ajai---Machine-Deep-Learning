@@ -39,5 +39,7 @@ Machine learning models are mathematical, which means they work with numbers, no
 
 
 
+### Previous Topic --> [Pattern Recognition](./pattern_recognition.md) 
+### Next Topic --> [Linear Regression](./linear_regression.md)
 
 </div>

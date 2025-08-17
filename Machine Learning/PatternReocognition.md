@@ -133,4 +133,7 @@ Developing a pattern recognition system follows a cyclical process:
 - **Post Processing**: Further refinement and analysis based on evaluation results.
 
 
+
+### Previous Topic --> [Introduction to Machine Learning](./introduction.md) 
+### Next Topic --> [Linear Regression](./linear_regression.md)
 </div>

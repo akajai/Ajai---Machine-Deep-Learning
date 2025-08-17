@@ -68,4 +68,7 @@ Reinforcement learning is about training an agent to make a sequence of decision
 4. **Skill Acquisition**: This suggests that RL can be applied to teach machines to acquire various skills through interaction and feedback.
 5. **Learning Tasks**: This is a broader term that encompasses the general learning capabilities enabled by reinforcement learning.
 
+
+
+### Next Topic --> [Pattern Recognition](./PatternReocognition.md)
 </div>
