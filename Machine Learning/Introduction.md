@@ -1,13 +1,14 @@
 <div style="text-align: justify;">
-# Introduction to Machine Learning
+
+## Introduction to Machine Learning
 
 This document provides a foundational understanding of Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL), outlining their historical development, core concepts, and interrelationships. It also delves into key aspects of data analysis, including data types, quality, characteristics, and preprocessing techniques, along with methods for calculating dissimilarities
 
-## Machine Learning (ML)
+### Machine Learning (ML)
 
 ML addresses the question of whether a computer can "learn on its own how to perform a specified task" by automatically learning data-processing rules from data, rather than being explicitly programmed.
 
-### Essential Components to implement ML
+#### Essential Components to implement ML
 
 1. Input data points.
 2. Examples of the expected output.
@@ -15,7 +16,7 @@ ML addresses the question of whether a computer can "learn on its own how to per
 
 <u>Examples of ML</u>: Machines playing chess, detecting and deleting spam, language translation.
 
-## ML vs. Classical Statistics Comparison:
+### ML vs. Classical Statistics Comparison:
 
 | Feature         | Statistical Approach                  | Machine Learning                        | 
 | :-------------- | :----------------------------------- | :-------------------------------------- | 
@@ -27,7 +28,7 @@ ML addresses the question of whether a computer can "learn on its own how to per
 | Inference       | Parameter estimation                 | Prediction                              | 
 | Interpretability| High | Medium to low
 
-### Categories of Machine Learning (ML)
+#### Categories of Machine Learning (ML)
 
 Machine learning is primarily divided into three main categories.
 
