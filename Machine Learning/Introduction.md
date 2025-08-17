@@ -14,7 +14,7 @@ ML addresses the question of whether a computer can "learn on its own how to per
 2. Examples of the expected output.
 3. A method to measure the algorithm's performance.
 
-<u>Examples of ML</u>: Machines playing chess, detecting and deleting spam, language translation.
+**Examples of ML**: Machines playing chess, detecting and deleting spam, language translation.
 
 ### ML vs. Classical Statistics Comparison:
 
@@ -37,12 +37,12 @@ This approach typically involves training a model using input data points and ex
 
 <b>Key Tasks</b>:
 
-1. <u>Classification</u>: It deals with categorizing data into predefined classes or labels. Examples of applications for Classification include:
+1. **Classification**: It deals with categorizing data into predefined classes or labels. Examples of applications for Classification include:
     - Image Classification
     - Customer Retention
     - Identity Fraud Detection
     - Diagnostics
-2. <u>Regression</u>: Unlike classification, which predicts discrete categories, regression typically involves predicting a continuous value. xamples of applications for Regression include:
+2. **Regression**: Unlike classification, which predicts discrete categories, regression typically involves predicting a continuous value. xamples of applications for Regression include:
     - Advertising Popularity Prediction
     - Weather Forecasting
     - Population Growth Prediction
@@ -54,18 +54,18 @@ Unsupervised learning is about finding hidden patterns in data that has not been
 
 <b>Key Tasks</b>:
 
-1. <u>Dimensionality Reduction</u>: Dimensionality Reduction is a specific task within Unsupervised Learning that addresses the issue of handling data with a large number of attributes or features. The "dimensions" of a dataset refer to the number of attributes that the data objects possess. For example, the dimensions of a dog's image could include thickness of ear, width of nose, width of dog, diameter of leg, color of fur, and height of dog. The primary objective of dimensionality reduction is to "reduce the data point to a smaller number of informative features". This process can help to "eliminate irrelevant features and reduce noise" within the dataset.
-2. <u>Clustering</u>: Clustering is another significant task performed under Unsupervised Learning. Its core purpose is to identify groups or "clusters" of data objects that are similar to each other, based on their inherent characteristics. This analysis can be performed by computing the similarity or distance between pairs of objects.
+1. **Dimensionality Reduction**: Dimensionality Reduction is a specific task within Unsupervised Learning that addresses the issue of handling data with a large number of attributes or features. The "dimensions" of a dataset refer to the number of attributes that the data objects possess. For example, the dimensions of a dog's image could include thickness of ear, width of nose, width of dog, diameter of leg, color of fur, and height of dog. The primary objective of dimensionality reduction is to "reduce the data point to a smaller number of informative features". This process can help to "eliminate irrelevant features and reduce noise" within the dataset.
+2. **Clustering**: Clustering is another significant task performed under Unsupervised Learning. Its core purpose is to identify groups or "clusters" of data objects that are similar to each other, based on their inherent characteristics. This analysis can be performed by computing the similarity or distance between pairs of objects.
 
 #### Reinforcement Learning (RL)
 Reinforcement learning is about training an agent to make a sequence of decisions. The agent learns through trial and error in an interactive environment. It receives rewards for good actions and penalties for bad ones, with the overall goal of maximizing its total reward over time.
 
 <b>Key Tasks</b>:
 
-1. <u>Real-time Decisions</u>: RL is suited for situations requiring quick and adaptive decision-making in dynamic environments.
-2. <u>Game AI</u>: A prominent application of RL involves developing artificial intelligence that can learn to play and master games. This demonstrates RL's capacity for strategic thinking and optimization over time.
-3. <u>Robot Navigation</u>: RL is used to enable robots to learn how to move and navigate effectively within their environment.
-4. <u>Skill Acquisition</u>: This suggests that RL can be applied to teach machines to acquire various skills through interaction and feedback.
-5. <u>Learning Tasks</u>: This is a broader term that encompasses the general learning capabilities enabled by reinforcement learning.
+1. **Real-time Decisions**: RL is suited for situations requiring quick and adaptive decision-making in dynamic environments.
+2. **Game AI**: A prominent application of RL involves developing artificial intelligence that can learn to play and master games. This demonstrates RL's capacity for strategic thinking and optimization over time.
+3. **Robot Navigation**: RL is used to enable robots to learn how to move and navigate effectively within their environment.
+4. **Skill Acquisition**: This suggests that RL can be applied to teach machines to acquire various skills through interaction and feedback.
+5. **Learning Tasks**: This is a broader term that encompasses the general learning capabilities enabled by reinforcement learning.
 
 </div>
