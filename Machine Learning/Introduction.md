@@ -177,7 +177,7 @@ Methods to find relationships among data objects based on their similarity or di
     - **Triangular Inequality**: $d(\mathbf{x}, \mathbf{z}) \le d(\mathbf{x}, \mathbf{y}) + d(\mathbf{y}, \mathbf{z})$.
     - **Symmetry**: $d(\mathbf{x}, \mathbf{y}) = d(\mathbf{y}, \mathbf{x})$.
 
-- **Chebyshev Distance ($L_{\infty}$-norm)**: Minkowski distance with P=$\infty$. "The maximum difference between any attribute of the objects." It's "the maximum distance along one axis."
+- **Chebyshev Distance ($L_{∞}$-norm)**: Minkowski distance with P=∞. "The maximum difference between any attribute of the objects." It's "the maximum distance along one axis."
 
     The best way to understand Chebyshev distance is to think about a king on a chessboard. A king can move one square in any direction—horizontally, vertically, or diagonally. The Chebyshev distance between two squares is the minimum number of moves a king would need to travel between them.
 
