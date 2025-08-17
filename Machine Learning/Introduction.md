@@ -134,11 +134,42 @@ Example Preprocessing Pipeline (Iris image recognition):
 
 Methods to find relationships among data objects based on their similarity or distance.
 
-- **Manhattan Distance ($L_1$-norm)**: Minkowski distance with P=1. "The sum of the separations." A common example is Hamming distance for binary attributes.
+- **Manhattan Distance ($L_1$-norm)**: Manhattan distance, also known as the L1-norm or taxicab distance, is a way of measuring the distance between two points by summing the absolute differences of their coordinates.
+
+    The name "Manhattan distance" comes from the grid-like layout of streets in Manhattan, New York. Imagine you're in a city like Delhi and want to get from point A to point B. You can't fly in a straight diagonal line because buildings are in the way. Instead, you have to travel along the horizontal and vertical streets.
+
+    The total distance you walk along this grid is the Manhattan distance. It's simply the sum of the horizontal distance and the vertical distance.
+
+    For two points in a 2D space, P1 = (x1, y1) and P2 = (x2, y2), the formula is:
+
+    Distance = |x₁ – x₂| + |y₁ – y₂|
+
+    The vertical bars | | represent the absolute value, meaning you only consider the positive difference (distance is always positive).
+
+    Simple Example:
+    
+    Let's find the Manhattan distance between Point A at (2, 3) and Point B at (5, 7).
+
+    Horizontal distance: |2 – 5| = |-3| = 3 blocks
+
+    Vertical distance: |3 – 7| = |-4| = 4 blocks
+
+    Total Manhattan Distance: 3 + 4 = 7
 
 - **Euclidean Distance ($L_2$-norm)**: The standard straight-line distance between two points in n-dimensional space.
+
+    Think of finding the distance between two landmarks in Delhi, like India Gate and Humayun's Tomb. The Euclidean distance is the length of the perfectly straight line you could draw connecting them on a map, ignoring all the roads, buildings, and other obstacles. It's often called the "as the crow flies" distance
     
     Formula: $d(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{k=1}^{n} (x_k - y_k)^2}$
+
+    Let's find the Euclidean distance between Point A at (2, 3) and Point B at (5, 7).
+
+    Find the horizontal difference: (5 – 2) = 3
+
+    Find the vertical difference: (7 – 3) = 4
+
+    Square them, add them, and take the square root:
+    Distance = √(3² + 4²) = √(9 + 16) = √25 = 5
 
     **Properties**
 
@@ -148,7 +179,26 @@ Methods to find relationships among data objects based on their similarity or di
 
 - **Chebyshev Distance ($L_{\infty}$-norm)**: Minkowski distance with P=$\infty$. "The maximum difference between any attribute of the objects." It's "the maximum distance along one axis."
 
-- **Minkowski Distance**: A generalization of Euclidean distance
+    The best way to understand Chebyshev distance is to think about a king on a chessboard. A king can move one square in any direction—horizontally, vertically, or diagonally. The Chebyshev distance between two squares is the minimum number of moves a king would need to travel between them.
+
+    For example, if a king needs to move 4 squares horizontally and 2 squares vertically, it can make 2 diagonal moves and 2 horizontal moves, for a total of 4 moves. This is simply the maximum of the two distances (max(4, 2) = 4)
+
+    For two points in a 2D space, P1 = (x1, y1) and P2 = (x2, y2), the formula is:
+
+    Distance = max( |x₁ – x₂|, |y₁ – y₂| )
+
+    This means you calculate the absolute difference for the x-coordinates and the absolute difference for the y-coordinates, and then you simply take the larger of those two values.
+
+    Simple Example:
+    Let's find the Chebyshev distance between Point A at (2, 3) and Point B at (5, 7).
+
+    Horizontal distance: |2 – 5| = 3
+
+    Vertical distance: |3 – 7| = 4
+
+    Chebyshev Distance: max(3, 4) = 4
+
+- **Minkowski Distance**: Minkowski distance is a generalized metric that represents the distance between two points in a multi-dimensional space. It's not a unique type of distance itself, but rather a flexible "parent" formula that can become other common distance metrics
 
     Formula: $d(\mathbf{x}, \mathbf{y}) = \left(\sum_{k=1}^{n} |x_k - y_k|^P\right)^{1/P}$
 
