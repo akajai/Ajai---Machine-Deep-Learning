@@ -129,7 +129,10 @@ You take a random sample of 100 students and record their height and weight. You
     This matrix captures the spread and relationships within your sample data. It's a bit more complex to calculate, but it would look something like this:
 
     $$
-    S = \begin{bmatrix} \text{Variance of Height} & \text{Covariance of Height \& Weight} \\ \text{Covariance of Height \& Weight} & \text{Variance of Weight} \end{bmatrix}
+    S = \begin{bmatrix}
+    \text{Variance of Height} & \text{Covariance of Height \& Weight} \\
+    \text{Covariance of Height \& Weight} & \text{Variance of Weight}
+    \end{bmatrix}
     $$
 
     - Variance (on the diagonal): These numbers tell you how spread out the height and weight values are, respectively. A larger number means more variation.
@@ -150,6 +153,6 @@ The relationship between bias and Maximum Likelihood Estimation (MLE) is that wh
 
 ### Quiz --> [Quiz](./Quiz/ParameterEstimationQuiz.md)
 
-### Previous Topic --> [Logistic Regression](./LogisticRegressionQuiz.md)
+### Previous Topic --> [Logistic Regression](./LogisticRegression.md)
 ### Next Topic --> [PCA - Principal Component Analysis](./PrincipalComponentAnalyses.md)
 </div>
