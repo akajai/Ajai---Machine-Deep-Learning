@@ -128,12 +128,12 @@ You take a random sample of 100 students and record their height and weight. You
 
     This matrix captures the spread and relationships within your sample data. It's a bit more complex to calculate, but it would look something like this:
 
-    $$
+    ```math
     S = \begin{bmatrix}
     \text{Variance of Height} & \text{Covariance of Height \& Weight} \\
     \text{Covariance of Height \& Weight} & \text{Variance of Weight}
     \end{bmatrix}
-    $$
+    ```
 
     - Variance (on the diagonal): These numbers tell you how spread out the height and weight values are, respectively. A larger number means more variation.
     - Covariance (on the off-diagonal): This number tells you how height and weight move together. A positive covariance would confirm our intuition that taller people tend to be heavier.
