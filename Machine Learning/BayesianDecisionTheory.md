@@ -551,4 +551,9 @@ You want to classify an email as 'Spam' or 'Not Spam'
 - How it Works: The algorithm learns the probability of these words appearing in spam versus non-spam emails. The presence of "winner" and "free" strongly suggests an email is spam. It combines the probabilities from all the binary features to make a final decision.
 
 
+### Quiz --> [Quiz](./Quiz/BayesianDecisionTheoryQuiz.md)
+
+### Previous Topic --> [Linear Regression](./LinearRegressionModel.md)
+
+
 </div>

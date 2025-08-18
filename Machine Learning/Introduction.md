@@ -203,6 +203,7 @@ Methods to find relationships among data objects based on their similarity or di
     Formula: $d(\mathbf{x}, \mathbf{y}) = \left(\sum_{k=1}^{n} |x_k - y_k|^P\right)^{1/P}$
 
 
+### Quiz --> [Introduction to Machine Learning & Data Analyses Quiz](./Quiz/IntroductionQuiz.md) 
 
 ### Next Topic --> [Pattern Recognition](./PatternReocognition.md)
 </div>

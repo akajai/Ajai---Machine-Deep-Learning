@@ -132,7 +132,7 @@ Developing a pattern recognition system follows a cyclical process:
 - **Evaluate Classifier**: Measuring the system's performance and identifying areas for improvement.
 - **Post Processing**: Further refinement and analysis based on evaluation results.
 
-
+### Quiz --> [Pattern Recognition Quiz](./Quiz/PatternRecognitionQuiz.md) 
 
 ### Previous Topic --> [Introduction to Machine Learning & Data Analyses](./Introduction.md) 
 ### Next Topic --> [Linear Regression](./LinearRegressionModel.md)
