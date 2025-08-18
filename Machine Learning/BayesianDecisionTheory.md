@@ -554,6 +554,6 @@ You want to classify an email as 'Spam' or 'Not Spam'
 ### Quiz --> [Quiz](./Quiz/BayesianDecisionTheoryQuiz.md)
 
 ### Previous Topic --> [Linear Regression](./LinearRegressionModel.md)
-
+### Next Topic --> [Logistic Regression](./LogisticRegression.md)
 
 </div>
