@@ -164,7 +164,7 @@ Imagine we want to build a model to classify apartments as either "Good Deal" or
 
 - Plotting: We plot all known "Good Deal" and "Overpriced" apartments in our 2D feature space (Size vs. Price). We'll see two distinct clusters of points.
 - Drawing Boundaries: The job of a classifier (like a Bayesian classifier) is to find and draw a decision boundary—a line or a curve—that best separates these two clusters
--     3. Classifying New Data: When a new apartment listing appears, we simply calculate its coordinates and plot it in the space. The side of the decision boundary it falls on determines its classification.
+- Classifying New Data: When a new apartment listing appears, we simply calculate its coordinates and plot it in the space. The side of the decision boundary it falls on determines its classification.
 In essence, feature space turns the complex problem of classification into a simpler geometric problem of separating groups of points.
 
 ### Conditional Risk
