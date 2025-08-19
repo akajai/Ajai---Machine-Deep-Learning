@@ -378,9 +378,9 @@ Let's calculate the Gini Impurity for a basket containing 10 fruits. We want to 
 
 The formula is: 
 
-$
+$$
 Gini = 1 - \sum_{i=1}^{n} (p_i)^2
-$
+$$
 
 Gini=1−((proportion of Class 1)2+(proportion of Class 2)2+...)
 
