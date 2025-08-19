@@ -392,5 +392,5 @@ A U-shaped distribution can be misleading if you only look at simple summary sta
 ### Quiz --> [Quiz](./Quiz/Non-ParametricTechniqueQuiz.md)
 
 ### Previous Topic --> [PCA - Principal Component Analyses](./PrincipalComponentAnalyses.md)
-### Next Topic --> [Decison Tree](./ParameterEstimation.md)
+### Next Topic --> [Decison Tree](./DecisionTree.md)
 </div>
