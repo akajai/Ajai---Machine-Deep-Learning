@@ -2,7 +2,7 @@
 
 ## Introduction to Machine Learning & Data Analyses
 
-This document provides a foundational understanding of Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL), outlining their historical development, core concepts, and interrelationships. It also delves into key aspects of data analysis, including data types, quality, characteristics, and preprocessing techniques, along with methods for calculating dissimilarities
+This document provides a foundational understanding of Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL), outlining their historical development, core concepts, and interrelationships. It also delves into key aspects of data analysis, including data types, quality, characteristics, and preprocessing techniques, along with methods for calculating dissimilarities.
 
 ### Machine Learning (ML)
 
