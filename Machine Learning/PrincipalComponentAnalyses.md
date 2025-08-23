@@ -456,7 +456,7 @@ To illustrate, we'll use a very simple dataset of student scores in two subjects
     We have now successfully reduced our two-dimensional dataset (Math and Physics scores) to a single, highly informative dimension (PC1), which we could call "Overall Academic Performance."
 
 
-### Quiz --> [Quiz](./Quiz/PrincipalComponentAnalysesQuiz.md)
+### Quiz --> [Principal Component Analyses Quiz](./Quiz/PrincipalComponentAnalysesQuiz.md)
 
 ### Previous Topic --> [Parameter Estimation](./ParameterEstimation.md)
 ### Next Topic --> [Non-Parametric Techniques](./Non-ParametricTechnique.md)

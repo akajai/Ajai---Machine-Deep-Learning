@@ -10,7 +10,9 @@
 8. [Non-Parametric Techniques](./NonParametricTechniques.md)
 9. [Decision Tree](./DecisionTree.md)
 10. [Neural Networks](./NeuralNetwork.md)
-
+11. [RBF & K-Mean Clustering](./RBF-K-MeanCluster.md)
+12. [SVM - Support Vector Machine](./SVM.md)
+13. [Bagging And Boosting](./BaggingAndBoosting.md)
 
 
 

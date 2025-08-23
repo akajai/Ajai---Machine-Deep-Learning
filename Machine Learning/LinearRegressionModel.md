@@ -60,7 +60,7 @@ You can plot these points on a graph. You'll notice they don't form a perfect st
 With this model, you can now predict sales for any temperature. If the forecast says it will be 32°C tomorrow, you can predict you'll sell (2 * 32) + 10 = 74 ice creams.
 
 
-### Quiz --> [Quiz](./Quiz/LinearRegressionModelQuiz.md)
+### Quiz --> [Linear Regression Model Quiz](./Quiz/LinearRegressionModelQuiz.md)
 
 ### Previous Topic --> [Pattern Recognition](./PatternReocognition.md) 
 ### Next Topic --> [Bayesian Decision Theory](./BayesianDecisionTheory.md)

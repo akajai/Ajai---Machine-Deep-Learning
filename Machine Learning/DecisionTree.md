@@ -471,7 +471,7 @@ While MSE is the most common criterion, Mean Absolute Error (MAE) can also be us
 - In practice, MSE is used far more often because its mathematical properties make it easier to optimize.
 
 
-### Quiz --> [Quiz](./Quiz/DecisionTreeQuiz.md)
+### Quiz --> [Decision Tree Quiz](./Quiz/DecisionTreeQuiz.md)
 
 ### Previous Topic --> [Non-Parametric Technique](./Non-ParametricTechnique.md)
 ### Next Topic --> [Neural Networks](./NeuralNetwork.md)

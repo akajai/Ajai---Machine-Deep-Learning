@@ -247,7 +247,7 @@ Because the underlying math of logistic regression is designed for two classes, 
     For example, if the model computes raw scores of Cat=2.0, Dog=5.0, and Bird=1.0 for a new image, the softmax function would convert these into probabilities like P(Cat)=0.04, P(Dog)=0.90, and P(Bird)=0.06. Since the highest probability is for "Dog," that becomes the prediction.
 
 
-### Quiz --> [Quiz](./Quiz/LogisticRegressionQuiz.md)
+### Quiz --> [Logistic Regression Quiz](./Quiz/LogisticRegressionQuiz.md)
 
 ### Previous Topic --> [Bayesian Decision Theory](./BayesianDecisionTheory.md)
 ### Next Topic --> [Parameter Estimation](./ParameterEstimation.md)

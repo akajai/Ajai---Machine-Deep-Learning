@@ -151,7 +151,7 @@ The relationship between bias and Maximum Likelihood Estimation (MLE) is that wh
 
 
 
-### Quiz --> [Quiz](./Quiz/ParameterEstimationQuiz.md)
+### Quiz --> [Parameter Estimation Quiz](./Quiz/ParameterEstimationQuiz.md)
 
 ### Previous Topic --> [Logistic Regression](./LogisticRegression.md)
 ### Next Topic --> [PCA - Principal Component Analysis](./PrincipalComponentAnalyses.md)
