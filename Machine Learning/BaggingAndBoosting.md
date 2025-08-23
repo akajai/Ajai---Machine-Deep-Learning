@@ -150,7 +150,7 @@ Imagine you have a team of specialist doctors (base models) and a wise General P
 Stacking is often the highest-performing ensemble method because it intelligently learns the optimal way to combine predictions, but it is also the most complex to implement correctly.
 
 
-### Quiz --> [Quiz](./Quiz/BaggingAndBoostingQuiz.md)
+### Quiz --> [Bagging and Boosting Quiz](./Quiz/BaggingAndBoostingQuiz.md)
 
 ### Previous Topic --> [SVM - Support Vector Machine](./SVM.md)
 </div>
