@@ -474,5 +474,5 @@ While MSE is the most common criterion, Mean Absolute Error (MAE) can also be us
 ### Quiz --> [Quiz](./Quiz/DecisionTreeQuiz.md)
 
 ### Previous Topic --> [Non-Parametric Technique](./Non-ParametricTechnique.md)
-### Next Topic --> [Decison Tree](./DecisionTree.md)
+### Next Topic --> [Neural Networks](./NeuralNetwork.md)
 </div>

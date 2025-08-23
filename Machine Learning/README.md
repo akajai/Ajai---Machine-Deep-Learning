@@ -9,6 +9,8 @@
 7. [PCA - Principal Component Analysis](./PrincipalComponentAnalyses.md)
 8. [Non-Parametric Techniques](./NonParametricTechniques.md)
 9. [Decision Tree](./DecisionTree.md)
+10. [Neural Networks](./NeuralNetwork.md)
+
 
 
 
