@@ -120,3 +120,4 @@ Let's revisit the sentence: **"The movie started off great with an engaging plot
 
 ### Previous Topic --> [Convonutional Neural Networks](./CNN.md)
 ### Next Topic --> [Autoencoders](./Autoencoders.md)
+</div>
