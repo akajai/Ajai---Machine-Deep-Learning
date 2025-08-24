@@ -150,5 +150,5 @@ This ensures that the model is trained and evaluated solely on its ability to un
 
 ### Quiz --> [Transfomer Architecture Quiz](./Quiz/TransformerArchitectureQuiz.md) 
 
-### Previous Topic --> [Variational Autoencoder Generative Adversarial Network - Diffusion Model Quiz](./VAE-GAN.md) 
+### Previous Topic --> [Variational Autoencoder Generative Adversarial Network - Diffusion Model](./VAE-GAN.md) 
 </div>
