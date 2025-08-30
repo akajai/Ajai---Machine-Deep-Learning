@@ -8,16 +8,16 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 
 **Question 1:** What is the primary goal of Machine Learning?
 
-- [ ] A) To explicitly program computers to perform a specified task.
+- [ ] A) To design better user interfaces.
 - [ ] B) To enable computers to learn on their own how to perform a specified task from data.
 - [ ] C) To create faster computer hardware.
-- [ ] D) To design better user interfaces.
+- [ ] D) To explicitly program computers to perform a specified task.
 
 **Answer:** B
 
 **Explanation:**
 
-*   **A is incorrect:** Machine Learning is about learning from data, not explicit programming.
+*   **A is incorrect:** These are not the primary goals of Machine Learning.
 *   **B is correct:** ML addresses the question of whether a computer can "learn on its own how to perform a specified task" by automatically learning data-processing rules from data.
 *   **C and D are incorrect:** These are not the primary goals of Machine Learning.
 
@@ -25,12 +25,12 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 
 **Question 2:** Which of the following is NOT an essential component to implement Machine Learning?
 
-- [ ] A) Input data points.
+- [ ] A) A graphical user interface.
 - [ ] B) Examples of the expected output.
 - [ ] C) A method to measure the algorithm's performance.
-- [ ] D) A graphical user interface.
+- [ ] D) Input data points.
 
-**Answer:** D
+**Answer:** A
 
 **Explanation:**
 
@@ -41,10 +41,10 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 
 **Question 3:** What is the main difference between Machine Learning and Classical Statistics?
 
-- [ ] A) Machine Learning focuses on hypothesis testing, while Classical Statistics focuses on predictive accuracy.
+- [ ] A) There is no difference between Machine Learning and Classical Statistics.
 - [ ] B) Machine Learning is driven by math and theory, while Classical Statistics is driven by fitting data using optimization techniques.
 - [ ] C) Machine Learning focuses on predictive accuracy, while Classical Statistics focuses on hypothesis testing.
-- [ ] D) There is no difference between Machine Learning and Classical Statistics.
+- [ ] D) Machine Learning focuses on hypothesis testing, while Classical Statistics focuses on predictive accuracy.
 
 **Answer:** C
 
@@ -58,25 +58,25 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 
 - [ ] A) Image Classification.
 - [ ] B) Dimensionality Reduction.
-- [ ] C) Clustering.
-- [ ] D) Game AI.
+- [ ] C) Game AI.
+- [ ] D) Clustering.
 
 **Answer:** A
 
 **Explanation:**
 
 *   **A is correct:** Image Classification is a supervised learning task where the model is trained on labeled images.
-*   **B and C are incorrect:** These are unsupervised learning tasks.
-*   **D is incorrect:** Game AI is a reinforcement learning task.
+*   **B and D are incorrect:** These are unsupervised learning tasks.
+*   **C is incorrect:** Game AI is a reinforcement learning task.
 
 ---
 
 **Question 5:** What is the main goal of Unsupervised Learning?
 
-- [ ] A) To train a model using labeled data.
+- [ ] A) To predict a continuous value.
 - [ ] B) To find hidden patterns in unlabeled data.
 - [ ] C) To train an agent to make a sequence of decisions.
-- [ ] D) To predict a continuous value.
+- [ ] D) To train a model using labeled data.
 
 **Answer:** B
 
@@ -88,10 +88,10 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 
 **Question 6:** Which of the following is an example of a Reinforcement Learning task?
 
-- [ ] A) Customer Retention.
+- [ ] A) Identity Fraud Detection.
 - [ ] B) Weather Forecasting.
 - [ ] C) Robot Navigation.
-- [ ] D) Identity Fraud Detection.
+- [ ] D) Customer Retention.
 
 **Answer:** C
 
@@ -103,10 +103,10 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 
 **Question 7:** What is the difference between discrete and continuous data?
 
-- [ ] A) Discrete data can be any value within a range, while continuous data can only take specific values.
+- [ ] A) There is no difference between discrete and continuous data.
 - [ ] B) Discrete data can only take specific values, while continuous data can be any value within a range.
 - [ ] C) Discrete data is always numerical, while continuous data is always categorical.
-- [ ] D) There is no difference between discrete and continuous data.
+- [ ] D) Discrete data can be any value within a range, while continuous data can only take specific values.
 
 **Answer:** B
 
@@ -118,10 +118,10 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 
 **Question 8:** Which of the following is an example of ordinal data?
 
-- [ ] A) Dog/cat/elephant.
+- [ ] A) Asian/African/American.
 - [ ] B) Black/blue/red.
 - [ ] C) First/second/third.
-- [ ] D) Asian/African/American.
+- [ ] D) Dog/cat/elephant.
 
 **Answer:** C
 
@@ -133,10 +133,10 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 
 **Question 9:** What is the main purpose of data preprocessing?
 
-- [ ] A) To increase the size of the dataset.
+- [ ] A) To add noise to the data.
 - [ ] B) To make the data more difficult to analyze.
 - [ ] C) To improve the data mining analysis with respect to time, cost, and quality.
-- [ ] D) To add noise to the data.
+- [ ] D) To increase the size of the dataset.
 
 **Answer:** C
 
@@ -148,10 +148,10 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 
 **Question 10:** What is the main idea behind dimensionality reduction?
 
-- [ ] A) To increase the number of attributes in a dataset.
+- [ ] A) To make the dataset more complex.
 - [ ] B) To reduce the number of attributes in a dataset.
 - [ ] C) To add noise to the dataset.
-- [ ] D) To make the dataset more complex.
+- [ ] D) To increase the number of attributes in a dataset.
 
 **Answer:** B
 
@@ -163,10 +163,10 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 
 **Question 11:** What is the main purpose of outlier removal?
 
-- [ ] A) To add more data points to the dataset.
+- [ ] A) To increase the noise in the dataset.
 - [ ] B) To identify and remove objects that deviate significantly from the rest.
 - [ ] C) To make the dataset more complex.
-- [ ] D) To increase the noise in the dataset.
+- [ ] D) To add more data points to the dataset.
 
 **Answer:** B
 
@@ -178,10 +178,10 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 
 **Question 12:** What is the Manhattan distance?
 
-- [ ] A) The straight-line distance between two points.
+- [ ] A) The same as the Euclidean distance.
 - [ ] B) The distance between two points measured along the axes at right angles.
 - [ ] C) The maximum difference between any attribute of the objects.
-- [ ] D) The same as the Euclidean distance.
+- [ ] D) The straight-line distance between two points.
 
 **Answer:** B
 
@@ -195,8 +195,8 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 
 - [ ] A) The straight-line distance between two points.
 - [ ] B) The distance between two points measured along the axes at right angles.
-- [ ] C) The maximum difference between any attribute of the objects.
-- [ ] D) The same as the Manhattan distance.
+- [ ] C) The same as the Manhattan distance.
+- [ ] D) The maximum difference between any attribute of the objects.
 
 **Answer:** A
 
@@ -208,10 +208,10 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 
 **Question 14:** What is the Chebyshev distance?
 
-- [ ] A) The straight-line distance between two points.
+- [ ] A) The same as the Minkowski distance.
 - [ ] B) The distance between two points measured along the axes at right angles.
 - [ ] C) The maximum difference between any attribute of the objects.
-- [ ] D) The same as the Minkowski distance.
+- [ ] D) The straight-line distance between two points.
 
 **Answer:** C
 
@@ -224,9 +224,9 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 **Question 15:** What is the Minkowski distance?
 
 - [ ] A) A generalized metric that represents the distance between two points in a multi-dimensional space.
-- [ ] B) The same as the Euclidean distance.
+- [ ] B) The same as the Chebyshev distance.
 - [ ] C) The same as the Manhattan distance.
-- [ ] D) The same as the Chebyshev distance.
+- [ ] D) The same as the Euclidean distance.
 
 **Answer:** A
 
@@ -239,9 +239,9 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 **Question 16:** What is the main difference between precision and bias?
 
 - [ ] A) Precision is the closeness of repeated measurements to one another, while bias is the systematic variation of measurements from the quantity being measured.
-- [ ] B) Bias is the closeness of repeated measurements to one another, while precision is the systematic variation of measurements from the quantity being measured.
+- [ ] B) Precision is a measure of accuracy, while bias is not.
 - [ ] C) Precision and bias are the same thing.
-- [ ] D) Precision is a measure of accuracy, while bias is not.
+- [ ] D) Bias is the closeness of repeated measurements to one another, while precision is the systematic variation of measurements from the quantity being measured.
 
 **Answer:** A
 
@@ -254,9 +254,9 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 **Question 17:** What is the main purpose of feature creation?
 
 - [ ] A) To generate new, more effective attributes from original ones.
-- [ ] B) To reduce the number of attributes in a dataset.
+- [ ] B) To make the dataset more complex.
 - [ ] C) To add noise to the dataset.
-- [ ] D) To make the dataset more complex.
+- [ ] D) To reduce the number of attributes in a dataset.
 
 **Answer:** A
 
@@ -269,9 +269,9 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 **Question 18:** What is the main purpose of sampling?
 
 - [ ] A) To select a subset of data objects for analysis to estimate characteristics of the whole population.
-- [ ] B) To increase the size of the dataset.
+- [ ] B) To make the dataset more complex.
 - [ ] C) To add noise to the dataset.
-- [ ] D) To make the dataset more complex.
+- [ ] D) To increase the size of the dataset.
 
 **Answer:** A
 
@@ -283,12 +283,12 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 
 **Question 19:** What is the main purpose of aggregation?
 
-- [ ] A) To combine two or more objects into a single object.
+- [ ] A) To add noise to the dataset.
 - [ ] B) To select a subset of data objects for analysis.
 - [ ] C) To reduce the number of attributes in a dataset.
-- [ ] D) To add noise to the dataset.
+- [ ] D) To combine two or more objects into a single object.
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:**
 
@@ -299,9 +299,9 @@ Here are 20 multiple-choice questions based on the Introduction to Machine Learn
 **Question 20:** What is the main purpose of feature subset selection?
 
 - [ ] A) To reduce dimensionality by selecting a subset of features.
-- [ ] B) To increase the number of attributes in a dataset.
+- [ ] B) To make the dataset more complex.
 - [ ] C) To add noise to the dataset.
-- [ ] D) To make the dataset more complex.
+- [ ] D) To increase the number of attributes in a dataset.
 
 **Answer:** A
 

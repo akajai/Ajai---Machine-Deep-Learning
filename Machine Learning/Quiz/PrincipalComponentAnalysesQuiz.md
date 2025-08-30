@@ -1,4 +1,3 @@
-
 # Principal Component Analysis (PCA) Quiz
 
 Here are 50 multiple-choice questions based on the Principal Component Analysis notes.
@@ -8,161 +7,160 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
 #### Introduction to PCA
 
 1.  **What is the primary goal of Principal Component Analysis (PCA)?**
-    *   [ ] A) To increase the number of variables in a dataset.
+    *   [ ] A) To predict a continuous value.
     *   [ ] B) To simplify complex data by reducing its number of dimensions.
     *   [ ] C) To classify data into different categories.
-    *   [ ] D) To predict a continuous value.
+    *   [ ] D) To increase the number of variables in a dataset.
 
     **Answer: B) To simplify complex data by reducing its number of dimensions.**
 
     **Explanation:**
-    *   A is incorrect. PCA is a dimensionality reduction technique, so it aims to decrease, not increase, the number of variables.
+    *   A is incorrect. This is the goal of regression analysis, not PCA.
     *   B is correct. PCA summarizes a large set of variables into a smaller set of new variables called principal components, thus simplifying the data.
     *   C is incorrect. PCA is an unsupervised dimensionality reduction technique, not a classification algorithm.
-    *   D is incorrect. This is the goal of regression analysis, not PCA.
+    *   D is incorrect. PCA is a dimensionality reduction technique, so it aims to decrease, not increase, the number of variables.
 
 2.  **In the coffee analogy, what does the new variable "Strength" represent?**
-    *   [ ] A) One of the original six features of the coffee.
+    *   [ ] A) The average of all six original features.
     *   [ ] B) A principal component that captures the combined effect of roast level and bitterness.
     *   [ ] C) A random variable that is unrelated to the coffee's properties.
-    *   [ ] D) The average of all six original features.
+    *   [ ] D) One of the original six features of the coffee.
 
     **Answer: B) A principal component that captures the combined effect of roast level and bitterness.**
 
     **Explanation:**
-    *   A is incorrect. "Strength" is a new, derived variable, not one of the original ones.
+    *   A is incorrect. A principal component is a weighted combination, not a simple average.
     *   B is correct. Principal components are new variables created by combining the original variables to capture the most significant patterns in the data.
     *   C is incorrect. Principal components are derived directly from the data's variance, not random.
-    *   D is incorrect. A principal component is a weighted combination, not a simple average.
+    *   D is incorrect. "Strength" is a new, derived variable, not one of the original ones.
 
 3.  **What does the First Principal Component (PC1) always represent?**
-    *   [ ] A) The direction in the data with the least amount of variance.
+    *   [ ] A) The average of all data points.
     *   [ ] B) The direction in the data with the most amount of variance.
     *   [ ] C) A direction that is parallel to the original x-axis.
-    *   [ ] D) The average of all data points.
+    *   [ ] D) The direction in the data with the least amount of variance.
 
     **Answer: B) The direction in the data with the most amount of variance.**
 
     **Explanation:**
-    *   A is incorrect. PCA prioritizes directions with the most variance, as this is where the most information is.
+    *   A is incorrect. The average is a single point, not a direction.
     *   B is correct. PC1 is defined as the axis that captures the maximum variance in the dataset, making it the most important summary direction.
     *   C is incorrect. The direction of PC1 is determined by the data's structure, not the original axes.
-    *   D is incorrect. The average is a single point, not a direction.
+    *   D is incorrect. PCA prioritizes directions with the most variance, as this is where the most information is.
 
 4.  **Which of the following is a primary reason to use PCA?**
-    *   [ ] A) To make a dataset more complex.
+    *   [ ] A) To ensure all variables have the same mean.
     *   [ ] B) To visualize high-dimensional data in 2D or 3D.
     *   [ ] C) To add noise to the data.
-    *   [ ] D) To ensure all variables have the same mean.
+    *   [ ] D) To make a dataset more complex.
 
     **Answer: B) To visualize high-dimensional data in 2D or 3D.**
 
     **Explanation:**
-    *   A is incorrect. The goal of PCA is simplification.
+    *   A is incorrect. Standardization, a pre-processing step for PCA, ensures variables have a mean of 0, but this is not the goal of PCA itself.
     *   B is correct. By reducing a dataset with many variables down to 2 or 3 principal components, PCA allows for the creation of scatter plots that can reveal patterns, clusters, or outliers.
     *   C is incorrect. PCA is often used for noise reduction, not addition.
-    *   D is incorrect. Standardization, a pre-processing step for PCA, ensures variables have a mean of 0, but this is not the goal of PCA itself.
+    *   D is incorrect. The goal of PCA is simplification.
 
 5.  **How does PCA help in noise reduction?**
-    *   [ ] A) By adding new, random features.
+    *   [ ] A) By increasing the dimensionality of the data.
     *   [ ] B) By focusing on the components with the most variance and filtering out later components which often capture noise.
     *   [ ] C) By removing all data points that are considered outliers.
-    *   [ ] D) By increasing the dimensionality of the data.
+    *   [ ] D) By adding new, random features.
 
     **Answer: B) By focusing on the components with the most variance and filtering out later components which often capture noise.**
 
     **Explanation:**
-    *   A is incorrect. PCA does not add random features.
+    *   A is incorrect. This is the opposite of what PCA does.
     *   B is correct. The assumption is that the most important information is in the directions of highest variance (the first few PCs), while noise resides in the directions of lowest variance (the last few PCs). By discarding the later PCs, we can filter out noise.
     *   C is incorrect. PCA does not inherently remove outliers, although it can help in identifying them.
-    *   D is incorrect. This is the opposite of what PCA does.
+    *   D is incorrect. PCA does not add random features.
 
 6.  **The principal components generated by PCA are:**
-    *   [ ] A) Always correlated with each other.
+    *   [ ] A) Always equal in number to the original variables.
     *   [ ] B) Always uncorrelated with each other.
     *   [ ] C) The same as the original variables.
-    *   [ ] D) Always equal in number to the original variables.
+    *   [ ] D) Always correlated with each other.
 
     **Answer: B) Always uncorrelated with each other.**
 
     **Explanation:**
-    *   A is incorrect. A key property of PCA is that the principal components are orthogonal, which means they are uncorrelated.
+    *   A is incorrect. While you can compute as many PCs as there are original variables, the goal of dimensionality reduction is to use fewer PCs than original variables.
     *   B is correct. Each principal component is constructed to be orthogonal to the previous ones, ensuring that the new variables are statistically independent and not redundant.
     *   C is incorrect. They are new variables derived from the original ones.
-    *   D is incorrect. While you can compute as many PCs as there are original variables, the goal of dimensionality reduction is to use fewer PCs than original variables.
+    *   D is incorrect. A key property of PCA is that the principal components are orthogonal, which means they are uncorrelated.
 
 7.  **What is the "curse of dimensionality"?**
-    *   [ ] A) The problem where models perform better with more dimensions.
+    *   [ ] A) The fact that dimensionality can only be reduced, not increased.
     *   [ ] B) The problem where models perform poorly in high-dimensional space because the data becomes sparse.
     *   [ ] C) The difficulty of visualizing data in more than three dimensions.
-    *   [ ] D) The fact that dimensionality can only be reduced, not increased.
+    *   [ ] D) The problem where models perform better with more dimensions.
 
     **Answer: B) The problem where models perform poorly in high-dimensional space because the data becomes sparse.**
 
     **Explanation:**
-    *   A is incorrect. The curse of dimensionality describes a performance degradation.
+    *   A is incorrect. Dimensionality can be increased, for example, through feature engineering.
     *   B is correct. When the number of features is very high compared to the number of data points, the feature space becomes vast and empty. This makes it difficult for models to find meaningful patterns, leading to overfitting and poor generalization.
     *   C is a consequence of high dimensionality, but not the "curse" itself in the machine learning context.
-    *   D is incorrect. Dimensionality can be increased, for example, through feature engineering.
+    *   D is incorrect. The curse of dimensionality describes a performance degradation.
 
 8.  **In the book summary analogy, what is lost when performing PCA?**
-    *   [ ] A) The main plot and characters.
+    *   [ ] A) The page numbers.
     *   [ ] B) Some of the minor details.
     *   [ ] C) The author's name.
-    *   [ ] D) The page numbers.
+    *   [ ] D) The main plot and characters.
 
     **Answer: B) Some of the minor details.**
 
     **Explanation:**
-    *   A is incorrect. PCA aims to keep the most important information (the main plot).
+    *   A and C are incorrect as they are not part of the core information PCA tries to preserve.
     *   B is correct. Dimensionality reduction is a trade-off. By summarizing the data, we inevitably lose some of the less important information, which corresponds to the later principal components with low variance.
-    *   C and D are incorrect as they are not part of the core information PCA tries to preserve.
+    *   D is incorrect. PCA aims to keep the most important information (the main plot).
 
 9.  **PCA is a technique for:**
-    *   [ ] A) Supervised learning
+    *   [ ] A) Semi-supervised learning
     *   [ ] B) Unsupervised learning
     *   [ ] C) Reinforcement learning
-    *   [ ] D) Semi-supervised learning
+    *   [ ] D) Supervised learning
 
-    **Answer: B) Unsupervised learning**
+    **Answer:** B
 
     **Explanation:**
     *   PCA does not use any labels or target variables to find the principal components. It only looks at the structure (variance) of the input features, making it an unsupervised method.
 
 10. **After applying PCA, the new variables are called:**
-    *   [ ] A) Eigenvalues
+    *   [ ] A) Standardized Variables
     *   [ ] B) Eigenvectors
     *   [ ] C) Principal Components
-    *   [ ] D) Standardized Variables
+    *   [ ] D) Eigenvalues
 
     **Answer: C) Principal Components**
 
     **Explanation:**
-    *   A and B are incorrect. Eigenvalues and eigenvectors are used in the calculation of PCA, but they are not the final transformed variables.
-    *   C is correct. The new, summary variables created by PCA are called principal components.
-    *   D is incorrect. Standardization is a preprocessing step, not the output of PCA.
+    *   A is incorrect. Standardization is a preprocessing step, not the output of PCA.
+    *   B and D are incorrect. Eigenvalues and eigenvectors are used in the calculation of PCA, but they are not the final transformed variables.
 
 #### Correlation and Covariance
 
 11. **What does a Pearson correlation coefficient of -1 indicate?**
-    *   [ ] A) A perfect positive correlation.
+    *   [ ] A) A weak negative correlation.
     *   [ ] B) No correlation.
     *   [ ] C) A perfect negative correlation.
-    *   [ ] D) A weak negative correlation.
+    *   [ ] D) A perfect positive correlation.
 
     **Answer: C) A perfect negative correlation.**
 
     **Explanation:**
-    *   A is incorrect. A value of +1 indicates a perfect positive correlation.
+    *   A is incorrect. -1 is the strongest possible negative correlation.
     *   B is incorrect. A value of 0 indicates no correlation.
     *   C is correct. A value of -1 means that as one feature increases, the other decreases by a proportional amount.
-    *   D is incorrect. -1 is the strongest possible negative correlation.
+    *   D is incorrect. A value of +1 indicates a perfect positive correlation.
 
 12. **What is the main purpose of standardization before calculating correlation?**
     *   [ ] A) To make the covariance value easier to interpret by scaling it to a range of -1 to +1.
-    *   [ ] B) To remove all negative values from the data.
+    *   [ ] B) To increase the magnitude of the covariance.
     *   [ ] C) To ensure the covariance is always a positive number.
-    *   [ ] D) To increase the magnitude of the covariance.
+    *   [ ] D) To remove all negative values from the data.
 
     **Answer: A) To make the covariance value easier to interpret by scaling it to a range of -1 to +1.**
 
@@ -171,52 +169,52 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   B, C, and D are incorrect. Standardization does not achieve these things.
 
 13. **In the ice cream sales example, why was the covariance a positive number (112.5)?**
-    *   [ ] A) Because the temperature was always positive.
+    *   [ ] A) Because the sample size was small.
     *   [ ] B) Because days with below-average temperature also had below-average sales, and vice-versa.
     *   [ ] C) Because the number of sales was always higher than the temperature.
-    *   [ ] D) Because the sample size was small.
+    *   [ ] D) Because the temperature was always positive.
 
     **Answer: B) Because days with below-average temperature also had below-average sales, and vice-versa.**
 
     **Explanation:**
-    *   A is incorrect. The sign of the data values does not determine the sign of the covariance.
+    *   A is incorrect. The sample size affects the value, but not necessarily its sign.
     *   B is correct. Covariance is positive when the two features tend to be on the same side of their respective averages at the same time (both above or both below). This indicates they move in the same direction.
     *   C is incorrect. The relative magnitudes of the features do not determine the sign of the covariance.
-    *   D is incorrect. The sample size affects the value, but not necessarily its sign.
+    *   D is incorrect. The sign of the data values does not determine the sign of the covariance.
 
 14. **What is covariance?**
-    *   [ ] A) A measure of how much two variables change together, scaled to a range of -1 to +1.
+    *   [ ] A) The average value of a single variable.
     *   [ ] B) A measure of how spread out a single variable is.
     *   [ ] C) A measure of whether two variables tend to move in the same or opposite directions.
-    *   [ ] D) The average value of a single variable.
+    *   [ ] D) A measure of how much two variables change together, scaled to a range of -1 to +1.
 
     **Answer: C) A measure of whether two variables tend to move in the same or opposite directions.**
 
     **Explanation:**
-    *   A describes correlation, which is standardized covariance.
+    *   A describes the mean.
     *   B describes variance or standard deviation.
     *   C is correct. Covariance is a measure of the joint variability of two random variables. Its sign indicates the direction of the linear relationship.
-    *   D describes the mean.
+    *   D describes correlation, which is standardized covariance.
 
 15. **If the correlation between two features is 0, it means:**
-    *   [ ] A) The two features are identical.
+    *   [ ] A) The two features have a strong non-linear relationship.
     *   [ ] B) There is no linear relationship between the features.
     *   [ ] C) As one feature increases, the other decreases.
-    *   [ ] D) The two features have a strong non-linear relationship.
+    *   [ ] D) The two features are identical.
 
     **Answer: B) There is no linear relationship between the features.**
 
     **Explanation:**
-    *   A would result in a correlation of +1.
+    *   A is possible, but a correlation of 0 does not guarantee it.
     *   B is correct. A correlation of 0 indicates that there is no predictable linear pattern between the two variables. It does not rule out a non-linear relationship.
     *   C would result in a negative correlation.
-    *   D is possible, but a correlation of 0 does not guarantee it.
+    *   D would result in a correlation of +1.
 
 16. **The formula for correlation involves dividing the covariance by:**
-    *   [ ] A) The sample size.
+    *   [ ] A) The sum of the variances of each feature.
     *   [ ] B) The mean of each feature.
     *   [ ] C) The product of the standard deviations of each feature.
-    *   [ ] D) The sum of the variances of each feature.
+    *   [ ] D) The sample size.
 
     **Answer: C) The product of the standard deviations of each feature.**
 
@@ -224,38 +222,38 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   The formula is: Correlation = Covariance / (StdDev(X) * StdDev(Y)). This step standardizes the covariance.
 
 17. **In the context of PCA, a covariance matrix is computed to:**
-    *   [ ] A) Understand the relationships and redundancies between the variables.
+    *   [ ] A) Classify the data points.
     *   [ ] B) Find the average value of each variable.
     *   [ ] C) Standardize the data.
-    *   [ ] D) Classify the data points.
+    *   [ ] D) Understand the relationships and redundancies between the variables.
 
-    **Answer: A) Understand the relationships and redundancies between the variables.**
+    **Answer: D) Understand the relationships and redundancies between the variables.**
 
     **Explanation:**
-    *   A is correct. The covariance matrix is the foundation of PCA. It contains the variance of each variable (on the diagonal) and the covariance between each pair of variables (off-diagonal), which together describe the shape and structure of the data.
+    *   A is not the purpose of the covariance matrix.
     *   B is calculated during the standardization step, before the covariance matrix.
     *   C is a pre-processing step.
-    *   D is not the purpose of the covariance matrix.
+    *   D is correct. The covariance matrix is the foundation of PCA. It contains the variance of each variable (on the diagonal) and the covariance between each pair of variables (off-diagonal), which together describe the shape and structure of the data.
 
 18. **If two variables are perfectly correlated (+1 or -1), what does this imply for PCA?**
-    *   [ ] A) PCA cannot be performed.
+    *   [ ] A) The first principal component will have an eigenvalue of 0.
     *   [ ] B) The two variables provide redundant information, and PCA will be very effective at reducing dimensionality.
     *   [ ] C) The two variables are completely independent.
-    *   [ ] D) The first principal component will have an eigenvalue of 0.
+    *   [ ] D) PCA cannot be performed.
 
     **Answer: B) The two variables provide redundant information, and PCA will be very effective at reducing dimensionality.**
 
     **Explanation:**
-    *   A is incorrect. PCA is ideal for this situation.
+    *   A is incorrect. The first PC will have a large eigenvalue, while the second PC will have an eigenvalue of 0.
     *   B is correct. If two variables are perfectly correlated, they are essentially measuring the same underlying property. PCA will create a first principal component that captures this shared information, and the second principal component will have zero variance, allowing for a perfect reduction of one dimension with no loss of information.
     *   C is the opposite of what perfect correlation means.
-    *   D is incorrect. The first PC will have a large eigenvalue, while the second PC will have an eigenvalue of 0.
+    *   D is incorrect. PCA is ideal for this situation.
 
 19. **The diagonal of a covariance matrix contains the:**
-    *   [ ] A) Covariances
+    *   [ ] A) Means
     *   [ ] B) Correlations
     *   [ ] C) Variances
-    *   [ ] D) Means
+    *   [ ] D) Covariances
 
     **Answer: C) Variances**
 
@@ -263,52 +261,52 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   The element at row i, column i of a covariance matrix is the covariance of variable i with itself, which is its variance.
 
 20. **Why is it important to standardize data before performing PCA?**
-    *   [ ] A) Because PCA cannot handle negative numbers.
+    *   [ ] A) To make the data fit a normal distribution.
     *   [ ] B) To prevent variables with larger scales from dominating the analysis.
     *   [ ] C) To ensure all eigenvalues are positive.
-    *   [ ] D) To make the data fit a normal distribution.
+    *   [ ] D) Because PCA cannot handle negative numbers.
 
     **Answer: B) To prevent variables with larger scales from dominating the analysis.**
 
     **Explanation:**
-    *   A is incorrect. PCA can handle negative numbers.
+    *   A is incorrect. Standardization does not change the shape of the distribution.
     *   B is correct. PCA is a variance-based technique. If one variable has a much larger range (and thus variance) than others, it will disproportionately influence the principal components. Standardization gives all variables equal weight.
     *   C is incorrect. Eigenvalues of a covariance matrix are always non-negative, regardless of standardization.
-    *   D is incorrect. Standardization does not change the shape of the distribution.
+    *   D is incorrect. PCA can handle negative numbers.
 
 #### Projection and Change of Axis
 
 21. **In the context of PCA, what is a "projection"?**
-    *   [ ] A) The process of adding new dimensions to the data.
+    *   [ ] A) The process of selecting a random subset of the data.
     *   [ ] B) The process of mapping data points onto the new principal component axes.
     *   [ ] C) The process of calculating the mean of the data.
-    *   [ ] D) The process of selecting a random subset of the data.
+    *   [ ] D) The process of adding new dimensions to the data.
 
     **Answer: B) The process of mapping data points onto the new principal component axes.**
 
     **Explanation:**
-    *   A is the opposite of what projection achieves in PCA.
+    *   A and C are unrelated to the concept of projection in this context.
     *   B is correct. After finding the principal components (the new axes), the original data is projected onto them. The coordinates of these projections are the new values in the reduced-dimensional space.
-    *   C and D are unrelated to the concept of projection in this context.
+    *   D is the opposite of what projection achieves in PCA.
 
 22. **What is the main goal of a "change of axis" in PCA?**
     *   [ ] A) To rotate the coordinate system to be better aligned with the data's variance.
-    *   [ ] B) To shift the data so that its mean is at (0,0).
+    *   [ ] B) To convert all data to positive values.
     *   [ ] C) To randomly shuffle the data points.
-    *   [ ] D) To convert all data to positive values.
+    *   [ ] D) To shift the data so that its mean is at (0,0).
 
     **Answer: A) To rotate the coordinate system to be better aligned with the data's variance.**
 
     **Explanation:**
     *   A is correct. PCA finds a new set of axes (the principal components) that are aligned with the directions of maximum spread in the data. This change of axis simplifies the data's structure.
-    *   B is achieved by mean-centering the data during standardization, which happens before the change of axis.
-    *   C and D are incorrect.
+    *   B and C are incorrect.
+    *   D is achieved by mean-centering the data during standardization, which happens before the change of axis.
 
 23. **In the Manhattan map analogy, what does the "Broadway" axis (B-axis) represent?**
-    *   [ ] A) The original North-South axis.
+    *   [ ] A) The average location of all cafes.
     *   [ ] B) A randomly chosen direction.
     *   [ ] C) The First Principal Component (PC1).
-    *   [ ] D) The average location of all cafes.
+    *   [ ] D) The original North-South axis.
 
     **Answer: C) The First Principal Component (PC1).**
 
@@ -316,24 +314,24 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   Broadway represents the direction along which the cafes (data points) are most spread out. This is conceptually identical to the First Principal Component, which is the axis of maximum variance.
 
 24. **Projecting a vector v onto another vector u gives you:**
-    *   [ ] A) The component of v that is perpendicular to u.
+    *   [ ] A) The angle between v and u.
     *   [ ] B) The component of v that points in the same direction as u.
     *   [ ] C) A vector that is longer than both v and u.
-    *   [ ] D) The angle between v and u.
+    *   [ ] D) The component of v that is perpendicular to u.
 
     **Answer: B) The component of v that points in the same direction as u.**
 
     **Explanation:**
-    *   A describes the rejection, or the part of v that is orthogonal to u.
+    *   A is incorrect. The dot product is related to the angle, but the projection is a vector.
     *   B is correct. The projection of v onto u is the "shadow" of v on the line defined by u, representing how much of v lies in the direction of u.
     *   C is incorrect. The projection's length is at most the length of v.
-    *   D is incorrect. The dot product is related to the angle, but the projection is a vector.
+    *   D describes the rejection, or the part of v that is orthogonal to u.
 
 25. **After changing the axes in PCA, the new axes are:**
-    *   [ ] A) The original x and y axes.
+    *   [ ] A) Always parallel to the original axes.
     *   [ ] B) The principal components.
     *   [ ] C) Randomly generated lines.
-    *   [ ] D) Always parallel to the original axes.
+    *   [ ] D) The original x and y axes.
 
     **Answer: B) The principal components.**
 
@@ -342,9 +340,9 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
 
 26. **The "shadow" analogy for projection helps to understand:**
     *   [ ] A) How a higher-dimensional object can be represented in a lower-dimensional space.
-    *   [ ] B) Why data needs to be standardized.
+    *   [ ] B) Why eigenvectors are always orthogonal.
     *   [ ] C) How to calculate the mean of a dataset.
-    *   [ ] D) Why eigenvectors are always orthogonal.
+    *   [ ] D) Why data needs to be standardized.
 
     **Answer: A) How a higher-dimensional object can be represented in a lower-dimensional space.**
 
@@ -352,10 +350,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   A is correct. The shadow (a 2D representation) of a 3D object is a perfect analogy for projection, where a data point from a high-dimensional space is mapped onto a lower-dimensional subspace (the new axes).
 
 27. **In PCA, projecting the data onto the principal components results in:**
-    *   [ ] A) The original data, unchanged.
+    *   [ ] A) A set of labels for the data.
     *   [ ] B) The new coordinates of the data in the reduced-dimensional space.
     *   [ ] C) The eigenvalues of the covariance matrix.
-    *   [ ] D) A set of labels for the data.
+    *   [ ] D) The original data, unchanged.
 
     **Answer: B) The new coordinates of the data in the reduced-dimensional space.**
 
@@ -363,10 +361,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   The result of the projection is a new set of values for each data point. These values are the coordinates along the new principal component axes.
 
 28. **Why is the projection onto the first few principal components a "meaningful summary"?**
-    *   [ ] A) Because it contains all the original variables.
+    *   [ ] A) Because it is the most complex representation of the data.
     *   [ ] B) Because these components capture the most variance and thus the most information.
     *   [ ] C) Because it makes the data perfectly fit a straight line.
-    *   [ ] D) Because it is the most complex representation of the data.
+    *   [ ] D) Because it contains all the original variables.
 
     **Answer: B) Because these components capture the most variance and thus the most information.**
 
@@ -374,10 +372,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   By definition, the first few PCs are the directions where the data is most spread out. This spread represents information, so projecting onto these axes preserves the most important patterns in the data.
 
 29. **The change of axis in PCA is determined by:**
-    *   [ ] A) The user's preference.
+    *   [ ] A) A random process.
     *   [ ] B) The number of data points.
     *   [ ] C) The structure and variance of the data itself.
-    *   [ ] D) A random process.
+    *   [ ] D) The user's preference.
 
     **Answer: C) The structure and variance of the data itself.**
 
@@ -385,10 +383,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   The new axes (principal components) are the eigenvectors of the data's covariance matrix. Their directions are therefore dictated entirely by the internal structure and patterns of variance within the data.
 
 30. **Projecting a 10-dimensional dataset onto its first two principal components allows you to:**
-    *   [ ] A) Keep all 10 original dimensions.
+    *   [ ] A) Understand the variance of all 10 original dimensions perfectly.
     *   [ ] B) Visualize the data in a 2D scatter plot.
     *   [ ] C) Increase the accuracy of any model to 100%.
-    *   [ ] D) Understand the variance of all 10 original dimensions perfectly.
+    *   [ ] D) Keep all 10 original dimensions.
 
     **Answer: B) Visualize the data in a 2D scatter plot.**
 
@@ -398,10 +396,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
 #### Orthogonality and Eigenvectors
 
 31. **What does it mean for two vectors to be "orthogonal"?**
-    *   [ ] A) They are parallel to each other.
+    *   [ ] A) They point in the same direction.
     *   [ ] B) They have the same length.
     *   [ ] C) They are perpendicular to each other (meet at a 90-degree angle).
-    *   [ ] D) They point in the same direction.
+    *   [ ] D) They are parallel to each other.
 
     **Answer: C) They are perpendicular to each other (meet at a 90-degree angle).**
 
@@ -409,10 +407,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   Orthogonal is the mathematical term for perpendicular.
 
 32. **Why is it important that principal components are orthogonal?**
-    *   [ ] A) It ensures they are correlated and provide redundant information.
+    *   [ ] A) It ensures they all have the same length.
     *   [ ] B) It ensures they are uncorrelated and provide unique, non-redundant information.
     *   [ ] C) It makes them harder to interpret.
-    *   [ ] D) It ensures they all have the same length.
+    *   [ ] D) It ensures they are correlated and provide redundant information.
 
     **Answer: B) It ensures they are uncorrelated and provide unique, non-redundant information.**
 
@@ -420,10 +418,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   Orthogonality means the new axes are independent. The information captured by PC2 is completely different from the information captured by PC1, making the new feature set efficient and free of redundancy.
 
 33. **What is an eigenvector of a matrix?**
-    *   [ ] A) A vector that, when transformed by the matrix, changes its direction randomly.
+    *   [ ] A) The inverse of the matrix.
     *   [ ] B) A vector that, when transformed by the matrix, does not change its direction, only its length.
     *   [ ] C) A vector that is always equal to the zero vector.
-    *   [ ] D) The inverse of the matrix.
+    *   [ ] D) A vector that, when transformed by the matrix, changes its direction randomly.
 
     **Answer: B) A vector that, when transformed by the matrix, does not change its direction, only its length.**
 
@@ -431,10 +429,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   An eigenvector represents a characteristic direction for the matrix transformation. When the matrix is applied, the eigenvector is simply scaled (stretched or shrunk) by its corresponding eigenvalue.
 
 34. **What is an eigenvalue?**
-    *   [ ] A) The direction of an eigenvector.
+    *   [ ] A) The length of an eigenvector.
     *   [ ] B) The scalar factor by which an eigenvector is scaled when transformed by the matrix.
     *   [ ] C) The angle between two eigenvectors.
-    *   [ ] D) The length of an eigenvector.
+    *   [ ] D) The direction of an eigenvector.
 
     **Answer: B) The scalar factor by which an eigenvector is scaled when transformed by the matrix.**
 
@@ -442,10 +440,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   The eigenvalue (λ) in the equation Av = λv represents the amount of "stretch" or "shrink" applied to the eigenvector v.
 
 35. **In PCA, the eigenvectors of which matrix become the principal components?**
-    *   [ ] A) The original data matrix.
+    *   [ ] A) The identity matrix.
     *   [ ] B) The standardized data matrix.
     *   [ ] C) The covariance matrix.
-    *   [ ] D) The identity matrix.
+    *   [ ] D) The original data matrix.
 
     **Answer: C) The covariance matrix.**
 
@@ -453,10 +451,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   The core of PCA is the eigendecomposition of the covariance matrix. The eigenvectors of the covariance matrix give the directions of maximum variance, which are the principal components.
 
 36. **In PCA, what do the eigenvalues represent?**
-    *   [ ] A) The direction of the principal components.
+    *   [ ] A) The number of original variables.
     *   [ ] B) The amount of variance captured by each principal component.
     *   [ ] C) The mean of the data along each principal component.
-    *   [ ] D) The number of original variables.
+    *   [ ] D) The direction of the principal components.
 
     **Answer: B) The amount of variance captured by each principal component.**
 
@@ -464,10 +462,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   The eigenvalue associated with an eigenvector (a principal component) is a measure of how much of the total data variance lies along that principal component's direction. Larger eigenvalues correspond to more important PCs.
 
 37. **A symmetric matrix is a square matrix that is equal to its:**
-    *   [ ] A) Inverse
+    *   [ ] A) Eigenvector
     *   [ ] B) Determinant
     *   [ ] C) Transpose
-    *   [ ] D) Eigenvector
+    *   [ ] D) Inverse
 
     **Answer: C) Transpose**
 
@@ -475,10 +473,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   A symmetric matrix is defined by the property A = Aᵀ, meaning if you flip it across its main diagonal, it remains unchanged.
 
 38. **What is the special property of eigenvectors for symmetric matrices?**
-    *   [ ] A) They are always parallel to each other.
+    *   [ ] A) They are always equal to the original axes.
     *   [ ] B) They are always orthogonal to each other.
     *   [ ] C) They always have a length of 1.
-    *   [ ] D) They are always equal to the original axes.
+    *   [ ] D) They are always parallel to each other.
 
     **Answer: B) They are always orthogonal to each other.**
 
@@ -486,10 +484,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   A key theorem in linear algebra states that the eigenvectors of a symmetric matrix corresponding to distinct eigenvalues are orthogonal. This property is fundamental to why PCA works.
 
 39. **Why is it significant that the covariance matrix is always symmetric?**
-    *   [ ] A) It means the covariance matrix is easy to invert.
+    *   [ ] A) It means the data has no correlation.
     *   [ ] B) It guarantees that its eigenvectors will be orthogonal, providing a valid basis for the new coordinate system.
     *   [ ] C) It means all the variances are equal.
-    *   [ ] D) It means the data has no correlation.
+    *   [ ] D) It means the covariance matrix is easy to invert.
 
     **Answer: B) It guarantees that its eigenvectors will be orthogonal, providing a valid basis for the new coordinate system.**
 
@@ -497,10 +495,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   The symmetry of the covariance matrix is crucial. Because it is symmetric, its eigenvectors are guaranteed to be orthogonal. This allows them to form a new, non-redundant coordinate system (the principal components) for the data.
 
 40. **The equation Av = λv defines the relationship between:**
-    *   [ ] A) A matrix A, its projection v, and its dimension λ.
+    *   [ ] A) A matrix A, its transpose v, and its determinant λ.
     *   [ ] B) A matrix A, its eigenvector v, and its eigenvalue λ.
     *   [ ] C) A vector A, its direction v, and its length λ.
-    *   [ ] D) A matrix A, its transpose v, and its determinant λ.
+    *   [ ] D) A matrix A, its projection v, and its dimension λ.
 
     **Answer: B) A matrix A, its eigenvector v, and its eigenvalue λ.**
 
@@ -510,10 +508,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
 #### The 5 Steps of PCA
 
 41. **What is the first step in the PCA algorithm?**
-    *   [ ] A) Compute the covariance matrix.
+    *   [ ] A) Project the data onto the new axes.
     *   [ ] B) Standardize the data.
     *   [ ] C) Compute eigenvectors and eigenvalues.
-    *   [ ] D) Project the data onto the new axes.
+    *   [ ] D) Compute the covariance matrix.
 
     **Answer: B) Standardize the data.**
 
@@ -521,10 +519,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   Before any other calculations, the data must be standardized (rescaled to have a mean of 0 and a standard deviation of 1) to ensure that variables with different scales are treated equally.
 
 42. **After standardizing the data, what is the next step in PCA?**
-    *   [ ] A) Choose the principal components.
+    *   [ ] A) Calculate the mean of the original data.
     *   [ ] B) Compute the covariance matrix.
     *   [ ] C) Project the data.
-    *   [ ] D) Calculate the mean of the original data.
+    *   [ ] D) Choose the principal components.
 
     **Answer: B) Compute the covariance matrix.**
 
@@ -532,10 +530,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   Once the data is standardized, the next step is to compute the covariance matrix to understand the relationships between the variables.
 
 43. **How do you decide which principal components to keep?**
-    *   [ ] A) By choosing the eigenvectors with the smallest eigenvalues.
+    *   [ ] A) By choosing the eigenvectors randomly.
     *   [ ] B) By choosing the eigenvectors with the largest eigenvalues.
     *   [ ] C) By choosing the eigenvectors that are closest to the original axes.
-    *   [ ] D) By choosing the eigenvectors randomly.
+    *   [ ] D) By choosing the eigenvectors with the smallest eigenvalues.
 
     **Answer: B) By choosing the eigenvectors with the largest eigenvalues.**
 
@@ -543,10 +541,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   Eigenvalues represent the amount of variance captured by their corresponding eigenvectors. To retain the most information, we rank the eigenvectors by their eigenvalues in descending order and keep the top ones.
 
 44. **In the example, the first principal component explained 99.5% of the variance. This indicates that:**
-    *   [ ] A) The second principal component is more important than the first.
+    *   [ ] A) PCA was not effective.
     *   [ ] B) The two original variables (Math and Physics) are highly correlated.
     *   [ ] C) The two original variables are not correlated.
-    *   [ ] D) PCA was not effective.
+    *   [ ] D) The second principal component is more important than the first.
 
     **Answer: B) The two original variables (Math and Physics) are highly correlated.**
 
@@ -554,9 +552,9 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   When a single PC captures almost all the variance, it means the original data points lie very close to a single line (the direction of that PC). This happens when the original variables are highly correlated and essentially measure the same underlying construct.
 
 45. **What is the final step of the PCA process?**
-    *   [ ] A) Standardize the data.
+    *   [ ] A) Compute the eigenvectors.
     *   [ ] B) Compute the covariance matrix.
-    *   [ ] C) Compute the eigenvectors.
+    *   [ ] C) Standardize the data.
     *   [ ] D) Project the original data onto the chosen principal components.
 
     **Answer: D) Project the original data onto the chosen principal components.**
@@ -565,10 +563,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   The final step is to use the chosen eigenvectors to transform the data into the new, lower-dimensional space. This is done by calculating the dot product of the standardized data and the chosen eigenvectors.
 
 46. **If the data is standardized, the variance of each variable is:**
-    *   [ ] A) 0
+    *   [ ] A) Different for each variable.
     *   [ ] B) 1
     *   [ ] C) Equal to the mean.
-    *   [ ] D) Different for each variable.
+    *   [ ] D) 0
 
     **Answer: B) 1**
 
@@ -576,10 +574,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   Standardization (or Z-score normalization) is the process of rescaling data so that it has a mean of 0 and a standard deviation of 1. Since variance is the square of the standard deviation, the variance is also 1.
 
 47. **The dot product is used in the final step of PCA to:**
-    *   [ ] A) Calculate the covariance matrix.
+    *   [ ] A) Standardize the data.
     *   [ ] B) Calculate the eigenvalues.
     *   [ ] C) Project the data onto the new axes.
-    *   [ ] D) Standardize the data.
+    *   [ ] D) Calculate the covariance matrix.
 
     **Answer: C) Project the data onto the new axes.**
 
@@ -587,10 +585,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   The dot product of a data point's vector with an eigenvector (which is a unit vector) gives the length of the projection of that data point onto the new axis defined by the eigenvector.
 
 48. **If you reduce a 5-dimensional dataset to 2 dimensions using PCA, your final data for each point will be:**
-    *   [ ] A) A single number.
+    *   [ ] A) The original data point.
     *   [ ] B) A pair of numbers (its coordinate on PC1 and PC2).
     *   [ ] C) A set of 5 numbers.
-    *   [ ] D) The original data point.
+    *   [ ] D) A single number.
 
     **Answer: B) A pair of numbers (its coordinate on PC1 and PC2).**
 
@@ -598,10 +596,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   The dimensionality of the final data is equal to the number of principal components you choose to keep. If you keep 2 PCs, each data point will be represented by two new values.
 
 49. **The sum of the eigenvalues of a covariance matrix is equal to:**
-    *   [ ] A) The number of variables.
+    *   [ ] A) One.
     *   [ ] B) The total variance in the data.
     *   [ ] C) Zero.
-    *   [ ] D) One.
+    *   [ ] D) The number of variables.
 
     **Answer: B) The total variance in the data.**
 
@@ -609,10 +607,10 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
     *   A key property of PCA is that the sum of the eigenvalues is equal to the trace of the covariance matrix, which in turn is equal to the total variance of the data.
 
 50. **To find the percentage of variance explained by a single principal component, you would:**
-    *   [ ] A) Divide its eigenvalue by the number of variables.
+    *   [ ] A) Take the square root of its eigenvalue.
     *   [ ] B) Divide its eigenvalue by the sum of all eigenvalues.
     *   [ ] C) Multiply its eigenvalue by the number of data points.
-    *   [ ] D) Take the square root of its eigenvalue.
+    *   [ ] D) Divide its eigenvalue by the number of variables.
 
     **Answer: B) Divide its eigenvalue by the sum of all eigenvalues.**
 
