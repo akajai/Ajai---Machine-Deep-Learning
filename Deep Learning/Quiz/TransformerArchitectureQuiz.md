@@ -18,7 +18,7 @@
 - [ ] A) Word, Subword, and Character
 - [ ] B) Query, Key, and Value
 - [ ] C) Position, Embedding, and Context
-- ] D) Input, Hidden, and Output
+- [ ] D) Input, Hidden, and Output
 
 **Correct Answer:** B
 
@@ -101,7 +101,7 @@
 **8. In the analogy of self-attention as a library researcher, what do the "Value" vectors represent?**
 - [ ] A) The library's card catalog.
 - [ ] B) The title or label on the spine of a book.
-- ] C) The actual content or information contained within a book.
+- [ ] C) The actual content or information contained within a book.
 - [ ] D) The researcher's specific question.
 
 **Correct Answer:** C
@@ -172,7 +172,7 @@
 - [ ] A) It is a padding token used to make all sequences in a batch the same length.
 - [ ] B) Its final hidden state is used as the aggregate representation for the entire sequence for classification tasks.
 - [ ] C) It marks the end of a sequence.
-- ] D) It is used to separate two different sentences in the input.
+- [ ] D) It is used to separate two different sentences in the input.
 
 **Correct Answer:** B
 
@@ -242,7 +242,7 @@
 - [ ] A) To mask out the Query vectors in the self-attention calculation.
 - [ ] B) To ensure the model does not calculate loss or accuracy on the meaningless `[PAD]` tokens.
 - [ ] C) To add extra padding to sentences that are too short.
-- ] D) To prevent the model from attending to future positions in the decoder.
+- [ ] D) To prevent the model from attending to future positions in the decoder.
 
 **Correct Answer:** B
 
