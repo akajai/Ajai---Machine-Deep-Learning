@@ -87,7 +87,7 @@
 **7. Which of the following deep learning architectures is most suited for processing sequential data like text or time series?**
 - [ ] A) Long Short-Term Memory (LSTM)
 - [ ] B) Generative Adversarial Network (GAN)
-- ] C) Autoencoder (AE)
+- [ ] C) Autoencoder (AE)
 - [ ] D) Convolutional Neural Network (CNN)
 
 **Correct Answer:** A
@@ -228,7 +228,7 @@
 - [ ] A) It is a method for data augmentation.
 - [ ] B) It is an algorithm for calculating the gradient of the loss function with respect to the network's weights, which is then used by an optimizer to update the weights.
 - [ ] C) It is only used in the final layer of the network.
-- ] D) It is used to calculate the loss of the network during the forward pass.
+- [ ] D) It is used to calculate the loss of the network during the forward pass.
 
 **Correct Answer:** B
 
@@ -242,7 +242,7 @@
 - [ ] A) Learning a compressed representation (encoding) of the input data, often for dimensionality reduction or feature learning.
 - [ ] B) Generating new images from random noise.
 - [ ] C) Predicting future values in a time series.
-- ] D) Classifying data into multiple categories.
+- [ ] D) Classifying data into multiple categories.
 
 **Correct Answer:** A
 
@@ -256,7 +256,7 @@
 - [ ] A) It will cause the gradients to vanish.
 - [ ] B) The training process will be very slow, and the model may get stuck in a poor local minimum.
 - [ ] C) The model will overfit to the training data.
-- ] D) The model will likely diverge and the loss will explode.
+- [ ] D) The model will likely diverge and the loss will explode.
 
 **Correct Answer:** B
 
@@ -270,7 +270,7 @@
 - [ ] A) The set of all learnable parameters in a layer.
 - [ ] B) The output of a filter applied to the input, which highlights the locations of a specific feature.
 - [ ] C) The final classification output.
-- ] D) The input image.
+- [ ] D) The input image.
 
 **Correct Answer:** B
 
@@ -284,7 +284,7 @@
 - [ ] A) Padding
 - [ ] B) Stride
 - [ ] C) The weights of the filters
-- ] D) Filter size
+- [ ] D) Filter size
 
 **Correct Answer:** C
 
@@ -298,7 +298,7 @@
 - [ ] A) Augment the training data.
 - [ ] B) Provide a final, unbiased evaluation of the model's performance after training is complete.
 - [ ] C) Tune the model's hyperparameters and monitor for overfitting during training.
-- ] D) Train the model.
+- [ ] D) Train the model.
 
 **Correct Answer:** C
 
@@ -312,7 +312,7 @@
 - [ ] A) Follows a cosine curve.
 - [ ] B) Decreases the learning rate by a fixed factor every few epochs.
 - [ ] C) Decreases the learning rate linearly from an initial value to a final value over the course of training.
-- ] D) Keeps the learning rate constant.
+- [ ] D) Keeps the learning rate constant.
 
 **Correct Answer:** C
 
@@ -326,7 +326,7 @@
 - [ ] A) It has no effect on the output.
 - [ ] B) It reduces the spatial dimensions of the output feature map.
 - [ ] C) It increases the number of learnable parameters.
-- ] D) It increases the spatial dimensions of the output feature map.
+- [ ] D) It increases the spatial dimensions of the output feature map.
 
 **Correct Answer:** B
 
@@ -340,7 +340,7 @@
 - [ ] A) VAEs do not have a decoder.
 - [ ] B) VAEs encode the input into a probability distribution in the latent space, while AEs encode it into a single point.
 - [ ] C) VAEs cannot be used for dimensionality reduction.
-- ] D) VAEs are used for supervised learning, while AEs are unsupervised.
+- [ ] D) VAEs are used for supervised learning, while AEs are unsupervised.
 
 **Correct Answer:** B
 
@@ -354,7 +354,7 @@
 - [ ] A) The features are organized by their color.
 - [ ] B) The network has a tree-like structure.
 - [ ] C) Deeper layers of the network learn to recognize more complex and abstract features by combining the simpler features learned by the earlier layers.
-- ] D) Features are extracted in a random order.
+- [ ] D) Features are extracted in a random order.
 
 **Correct Answer:** C
 
@@ -368,7 +368,7 @@
 - [ ] A) Cosine Similarity
 - [ ] B) Categorical Cross-Entropy (CCE)
 - [ ] C) Mean Squared Error (MSE)
-- ] D) Binary Cross-Entropy (BCE)
+- [ ] D) Binary Cross-Entropy (BCE)
 
 **Correct Answer:** C
 
@@ -382,7 +382,7 @@
 - [ ] A) It normalizes the activations.
 - [ ] B) It introduces non-linearity.
 - [ ] C) It reduces the spatial dimensions of the feature maps, which reduces computation and provides a degree of translational invariance.
-- ] D) It increases the number of feature maps.
+- [ ] D) It increases the number of feature maps.
 
 **Correct Answer:** C
 
@@ -396,7 +396,7 @@
 - [ ] A) Adapts the activation functions during training.
 - [ ] B) Adapts the learning rate for each parameter individually based on past gradients.
 - [ ] C) Adapts the batch size during training.
-- ] D) Adapts the network architecture during training.
+- [ ] D) Adapts the network architecture during training.
 
 **Correct Answer:** B
 
@@ -410,7 +410,7 @@
 - [ ] A) Zooming
 - [ ] B) Flipping
 - [ ] C) Backpropagation
-- ] D) Rotation
+- [ ] D) Rotation
 
 **Correct Answer:** C
 
