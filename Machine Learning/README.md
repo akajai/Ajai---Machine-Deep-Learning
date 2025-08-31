@@ -14,5 +14,7 @@
 12. [SVM - Support Vector Machine](./SVM.md)
 13. [Bagging And Boosting](./BaggingAndBoosting.md)
 
+### Quiz --> [Machine Learning Quiz](Quiz/MachineLearningMCQs.md)
+
 
 

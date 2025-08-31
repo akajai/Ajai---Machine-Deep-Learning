@@ -7,5 +7,7 @@
 5. [Variational Autoencoder Generative Adversarial Network + Diffusion Model](./VAE-GAN.md)
 6. [Transformer Architecture](./TransformerArchitecture.md)
 
+### Quiz --> [Deep Learning Quiz](Quiz/DeepLearningQuiz.md)
+
 
 
