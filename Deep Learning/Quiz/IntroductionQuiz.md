@@ -139,3 +139,6 @@
 - **B) Correct.** This highlights the key architectural difference. Convolutional layers exploit locality with small filters and use parameter sharing to be efficient. Fully Connected layers are global and have no parameter sharing.
 - **C) Incorrect.** Both layer types can handle multi-channel (e.g., color) data.
 - **D) Incorrect.** The opposite is true. Convolutional layers are used for feature extraction at the beginning, and Fully Connected layers are used for classification at the end.
+
+
+### Back to Reading Content --> [Introduction to Deep Learning)](../Introduction.md)

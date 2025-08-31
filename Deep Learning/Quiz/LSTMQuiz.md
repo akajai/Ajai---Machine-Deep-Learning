@@ -279,3 +279,6 @@
 - B) Correct. For sequence classification, the idea is that after processing the entire sequence, the hidden state at the final time step contains a summary or representation of the entire sequence. This final hidden state is then typically passed to a dense layer with a softmax activation to produce the classification.
 - C) Incorrect. The first time step only has information about the first element.
 - D) Incorrect. While this is a possible approach (pooling), it is not the most common one.
+
+
+### Back to Reading Content --> [Long Short-Term Memory (LSTM)](../LSTM.md)

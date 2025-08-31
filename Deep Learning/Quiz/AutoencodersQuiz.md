@@ -412,3 +412,6 @@
 - B) PCA is generally easier to implement.
 - C) The ability to capture complex, non-linear relationships in the data is the main reason to choose an autoencoder over the linear PCA.
 - D) This is not always true.
+
+
+### Back to Reading Content --> [Autoencoders](../Autoencoders.md)

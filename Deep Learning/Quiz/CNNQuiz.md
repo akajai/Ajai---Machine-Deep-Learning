@@ -419,3 +419,5 @@
 - B) Incorrect. Horizontal flipping is a very common augmentation technique.
 - C) Correct. Backpropagation is the algorithm used to train the neural network by updating its weights; it is not a data preprocessing or augmentation technique.
 - D) Incorrect. Rotation is a common augmentation technique.
+
+### Back to Reading Content --> [Convolutional Neural Networks (CNNs)](../CNN.md)

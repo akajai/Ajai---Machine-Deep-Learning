@@ -279,3 +279,6 @@
 - B) Incorrect. A Diffusion Model's objective is to accurately predict noise.
 - C) Correct. The generator in a GAN is trained to maximize the discriminator's loss (i.e., to fool it). At convergence, the ideal discriminator is one that can only guess, indicating its performance is poor because the generator's fakes are perfect.
 - D) Incorrect. A CAE's objective is to minimize reconstruction loss.
+
+
+### Back to Reading Content --> [Variational Autoencoder Generative Adversarial Networks (VAE-GANs)]()../VAE-GAN.md)

@@ -279,3 +279,6 @@
 - B) Correct. By taking Queries from the generated output and Keys/Values from the source sentence, the cross-attention layer learns which words in the source are most relevant for predicting the next word in the target. This is effectively learning the alignment between the two languages.
 - C) Incorrect. The encoder processes the source sentence in parallel; the decoder uses that output.
 - D) Incorrect. This is learned more broadly by the entire decoder, particularly the masked self-attention.
+
+
+### Back to Reading Content --> [Transformer Architecture](../TransformerArchitecture.md)
