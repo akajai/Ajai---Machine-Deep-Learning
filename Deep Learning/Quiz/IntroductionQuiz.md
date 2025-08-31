@@ -141,4 +141,4 @@
 - **D) Incorrect.** The opposite is true. Convolutional layers are used for feature extraction at the beginning, and Fully Connected layers are used for classification at the end.
 
 
-### Back to Reading Content --> [Introduction to Deep Learning)](../Introduction.md)
+### Back to Reading Content --> [Introduction to Deep Learning](../Introduction.md)
