@@ -31,7 +31,7 @@
 **3. What is a major disadvantage of Diffusion Models compared to GANs?**
 - [ ] A) They are unable to learn complex data distributions.
 - [ ] B) The training process is known to be highly unstable.
-- ] C) The generation process is much slower due to its iterative, step-by-step nature.
+- [ ] C) The generation process is much slower due to its iterative, step-by-step nature.
 - [ ] D) The generated image quality is significantly lower.
 
 **Correct Answer:** C
@@ -211,17 +211,17 @@
 - D) Incorrect. The process is iterative and requires many steps.
 
 **16. Which of these generative models does NOT involve an encoder in its standard architecture?**
-- [ ] A) All of them have an encoder.
-- [ ] B) Convolutional Autoencoder (CAE)
-- [ ] C) Generative Adversarial Network (GAN)
-- [ ] D) Variational Autoencoder (VAE)
+- [ ] A) Convolutional Autoencoder (CAE)
+- [ ] B) Generative Adversarial Network (GAN)
+- [ ] C) Variational Autoencoder (VAE)
+- [ ] D) All of them have an encoder.
 
-**Correct Answer:** C
+**Correct Answer:** B
 
 **Explanation:**
 - A) Incorrect.
-- B) Incorrect. CAEs have an encoder to create the latent representation.
-- C) Correct. A standard GAN consists of a Generator and a Discriminator. The Generator takes random noise as input, not a compressed version of real data, so there is no encoder.
+- B) Correct. A standard GAN consists of a Generator and a Discriminator. The Generator takes random noise as input, not a compressed version of real data, so there is no encoder.
+- C) Incorrect. CAEs have an encoder to create the latent representation.
 - D) Incorrect. VAEs have an encoder to create the latent distribution.
 
 **17. The loss function of a VAE contains a reconstruction term and what other crucial component?**
