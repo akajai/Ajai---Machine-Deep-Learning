@@ -489,10 +489,10 @@
 **Explanation:** Proper weight initialization is crucial for training deep neural networks. Poor initialization can lead to problems like vanishing or exploding gradients.
 
 **Question 50:** A neural network can be considered a type of:
-- [ ] A) All of the above.
-- [ ] B) Supervised learning algorithm.
-- [ ] C) Reinforcement learning algorithm.
-- [ ] D) Unsupervised learning algorithm.
+- [ ] A) Supervised learning algorithm.
+- [ ] B) Reinforcement learning algorithm.
+- [ ] C) Unsupervised learning algorithm.
+- [ ] D) All of the above.
 
 **Answer:** D) All of the above.
 
