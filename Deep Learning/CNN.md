@@ -180,7 +180,7 @@ To achieve the best training results, it's often necessary to adjust the learnin
 * **Cosine:** The learning rate follows a cosine curve, starting high, decreasing, and then slightly increasing again at the end.
 
 
-### Quiz --> [Quiz](./Quiz/CNNQuiz.md) 
+### Quiz --> [Convolutional Neural Networks Quiz](./Quiz/CNNQuiz.md) 
 
 ### Previous Topic --> [Introduction to Deep Learning](./Introduction.md)
 ### Next Topic --> [Long-Short Term Memory (LSTM) Network](./LSTM.md)
