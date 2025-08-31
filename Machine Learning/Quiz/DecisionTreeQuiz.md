@@ -788,3 +788,6 @@
 **Explanation:**
 - **A) Random Forest.** This is correct. A Random Forest is an ensemble model that builds and aggregates the results from a multitude of individual decision trees to produce a more robust and accurate prediction.
 - **B, C, D.** These are all distinct machine learning algorithms.
+
+
+### Back to Reading Content --> [Decision Tree](../DecisionTree.md)

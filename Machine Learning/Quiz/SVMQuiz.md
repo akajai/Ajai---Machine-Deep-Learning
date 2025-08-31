@@ -381,3 +381,5 @@
 **Explanation:**
 - By definition, support vectors are the data points that lie exactly on the margin boundaries or are within the margin (in the case of a soft-margin SVM). They are the points that constrain the position of the hyperplane.
 - **A, C, D)** These are not defining characteristics of support vectors.
+
+### Back to Reading Content --> [Support Vector Machine](../SVM.md)

@@ -579,3 +579,5 @@ Here are 50 multiple-choice questions based on the Non-Parametric Techniques not
 
     **Explanation:**
     *   The logic of k-NN is based on local density. By taking a majority vote of the nearest neighbors, the algorithm is essentially betting that the new point belongs to the class that is most densely populated in its immediate vicinity.
+
+    ### Back to Reading Content --> [Non-Parametric Techniques](../Non-ParametricTechnique.md)

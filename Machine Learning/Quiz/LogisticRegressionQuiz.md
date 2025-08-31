@@ -279,3 +279,5 @@ Here are 20 multiple-choice questions based on the Logistic Regression notes.
     *   B is incorrect. This is another regression metric.
     *   C is correct. The cost function derived from the negative log-likelihood is commonly known as Log Loss or Cross-Entropy Loss in the context of classification.
     *   D is incorrect. This is the cost function for linear regression.
+
+    ### Back to Reading Content --> [Logistic Regression Model](../LogisticRegression.md)

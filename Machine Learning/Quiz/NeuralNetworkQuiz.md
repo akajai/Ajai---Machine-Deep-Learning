@@ -497,3 +497,5 @@
 **Answer:** D) All of the above.
 
 **Explanation:** Neural networks are highly versatile and can be used in all major categories of machine learning. For example, autoencoders are used for unsupervised learning, standard feedforward networks are used for supervised learning, and deep Q-networks are used for reinforcement learning.
+
+### Back to Reading Content --> [Neural Network](../NeuralNetwork.md)

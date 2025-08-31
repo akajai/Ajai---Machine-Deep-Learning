@@ -616,3 +616,6 @@ Here are 50 multiple-choice questions based on the Principal Component Analysis 
 
     **Explanation:**
     *   The proportion of variance explained by a PC is its corresponding eigenvalue (the variance along that PC) divided by the total variance (the sum of all eigenvalues).
+
+
+    ### Back to Reading Content --> [Principal Component Analysis](../PrincipalComponentAnalyses.md)

@@ -471,8 +471,8 @@ $$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$
 **Correct Answer: A**
 
 **Explanation:**
-* **Why D is correct:** **Positive covariance** means that the two variables have a positive linear relationship. They tend to move in the **same direction**.
-* **Why others are wrong:** A is incorrect; covariance indicates correlation, not causation. B would be indicated by zero covariance. C describes negative covariance.
+* **Why A is correct:** **Positive covariance** means that the two variables have a positive linear relationship. They tend to move in the **same direction**.
+* **Why others are wrong:** D is incorrect; covariance indicates correlation, not causation. B would be indicated by zero covariance. C describes negative covariance.
 
 ---
 

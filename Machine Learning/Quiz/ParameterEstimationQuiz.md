@@ -281,3 +281,5 @@ Here are 20 multiple-choice questions based on the Parameter Estimation notes.
     *   B is correct. Variance is a measure of spread or dispersion. A larger variance means the data points are, on average, farther from the mean.
     *   C is incorrect. The mean and variance are independent parameters; a large variance can exist with any mean.
     *   D is incorrect. This describes a small variance.
+
+    ### Back to Reading Content --> [Parameter Estimation](../ParameterEstimation.md)

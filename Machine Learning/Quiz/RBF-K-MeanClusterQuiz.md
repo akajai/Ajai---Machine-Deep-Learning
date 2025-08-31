@@ -393,3 +393,6 @@
 **Explanation:**
 - An RBF network has an input layer, a hidden layer, and an output layer, making it a two-layer feedforward network (if you count the connections between layers). However, it's a special case due to the nature of the hidden units and the hybrid training method.
 - **A, B, D)** These are different types of neural network architectures.
+
+
+### Back to Reading Content --> [Kernel Methods and Radial-Basis Function Networks](../RBF-K-MeanCluster.md)
