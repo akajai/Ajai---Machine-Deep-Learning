@@ -541,7 +541,7 @@ A popular application of cross-validation is the early-stopping method. This met
 
 
 
-### Quiz --> [Quiz](./Quiz/NeuralNetworkQuiz.md)
+### Quiz --> [Neural Network Quiz](./Quiz/NeuralNetworkQuiz.md)
 
 ### Previous Topic --> [Decision Tree](./DecisionTree.md)
 ### Next Topic --> [RBF & K-Mean Clustering](./RBF-K-MeanCluster.md)
