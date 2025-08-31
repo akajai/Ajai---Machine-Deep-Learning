@@ -116,7 +116,7 @@ Let's revisit the sentence: **"The movie started off great with an engaging plot
     * The final **output gate** would be able to look at the entire context stored in the cell state—both the early positive and later negative information—to make a much more nuanced and accurate prediction.
 
 
-### Quiz --> [Long-Short Term Memory Quiz](./Quiz/CNNQuiz.md) 
+### Quiz --> [Long-Short Term Memory Quiz](./Quiz/LSTMQuiz.md) 
 
 ### Previous Topic --> [Convonutional Neural Networks](./CNN.md)
 ### Next Topic --> [Autoencoders](./Autoencoders.md)
