@@ -281,4 +281,4 @@
 - D) Incorrect. A CAE's objective is to minimize reconstruction loss.
 
 
-### Back to Reading Content --> [Variational Autoencoder Generative Adversarial Networks (VAE-GANs)]()../VAE-GAN.md)
+### Back to Reading Content --> [Variational Autoencoder Generative Adversarial Networks (VAE-GANs)](../VAE-GAN.md)
