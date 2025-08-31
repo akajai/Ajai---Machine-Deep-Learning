@@ -387,17 +387,17 @@
 - D) The goal is to reduce dimensionality.
 
 **29. What is the effect of the learning rate on the training of an autoencoder?**
-- [ ] A) Both A and B.
-- [ ] B) A very low learning rate can cause the training to be very slow.
-- [ ] C) The learning rate has no effect on the training.
-- [ ] D) A very high learning rate can cause the training to diverge.
+- [ ] A) A very low learning rate can cause the training to be very slow.
+- [ ] B) The learning rate has no effect on the training.
+- [ ] C) A very high learning rate can cause the training to diverge.
+- [ ] D) Both A and C.
 
-**Correct Answer:** A
+**Correct Answer:** D
 
 **Explanation:**
-- A) Both A and B are correct statements.
-- B, D) The learning rate is a critical hyperparameter. If it's too high, the optimization can overshoot the minimum and diverge. If it's too low, the training can take a very long time to converge.
-- C) This is incorrect.
+- D) Both A and C are correct statements.
+- A, C) The learning rate is a critical hyperparameter. If it's too high, the optimization can overshoot the minimum and diverge. If it's too low, the training can take a very long time to converge.
+- B) This is incorrect.
 
 **30. What is the primary motivation for using an autoencoder over PCA for dimensionality reduction?**
 - [ ] A) Autoencoders are a form of lossless compression.
