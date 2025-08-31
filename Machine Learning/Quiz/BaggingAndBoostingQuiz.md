@@ -83,7 +83,7 @@
 - [ ] A) A misclassified data point.
 - [ ] B) A decision tree with only one split.
 - [ ] C) A Random Forest with only one tree.
-- ] D) A fully grown decision tree.
+- [ ] D) A fully grown decision tree.
 
 **Correct Answer:** B
 
@@ -107,8 +107,8 @@
 **9. What is the role of the "learning rate" in Gradient Boosting?**
 - [ ] A) It controls the randomness of feature selection.
 - [ ] B) It scales the contribution of each new model to the ensemble.
-- [ ] C) It is the number of models in the ensemble.
-- ] D) It determines the depth of the decision trees.
+-   [ ] C) It is the number of models in the ensemble.
+- [ ] D) It determines the depth of the decision trees.
 
 **Correct Answer:** B
 

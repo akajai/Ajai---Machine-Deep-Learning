@@ -350,7 +350,7 @@
 - [ ] A) To increase the number of support vectors.
 - [ ] B) To reduce the computational complexity of the model.
 - [ ] C) To make the model easier to interpret.
-- ] D) To improve the model's generalization to new data.
+- [ ] D) To improve the model's generalization to new data.
 
 **Correct Answer:** D
 
