@@ -59,8 +59,8 @@ $$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$
 **Correct Answer: A**
 
 **Explanation:**
-* **Why D is correct:** **P(B|A)** is the **likelihood**. It represents the probability of observing the evidence (B) given that the hypothesis (A) is true. It is a cornerstone of the calculation, telling us how well our hypothesis explains the data.
-* **Why others are wrong:** A is the prior P(A). B is the posterior P(A|B). C is the evidence P(B).
+* **Why A is correct:** **P(B|A)** is the **likelihood**. It represents the probability of observing the evidence (B) given that the hypothesis (A) is true. It is a cornerstone of the calculation, telling us how well our hypothesis explains the data.
+* **Why others are wrong:** D is the prior P(A). B is the posterior P(A|B). C is the evidence P(B).
 
 ---
 
