@@ -533,7 +533,7 @@
 
 **48. The main difference between a simple RNN and an LSTM is the presence of:**
 - [ ] A) A hidden state.
-- ] B) Shared weights.
+- [ ] B) Shared weights.
 - [ ] C) A cell state and gating mechanisms.
 - [ ] D) An output layer.
 
