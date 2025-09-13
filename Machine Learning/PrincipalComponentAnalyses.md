@@ -125,11 +125,11 @@ A projection is the process of taking one object, like a point or a vector, and 
 
 **The Shadow Analogy 🔦**
 
-The easiest way to understand projection is to think about shadows.3 Imagine you have a stick and a flat wall. You shine a flashlight directly at the wall from above.
+The easiest way to understand projection is to think about shadows. Imagine you have a stick and a flat wall. You shine a flashlight directly at the wall from above.
 
 - The stick is your original vector or object.
 - The wall is the line or surface you are projecting onto.
-- The shadow that the stick casts on the wall is its projection.4
+- The shadow that the stick casts on the wall is its projection.
 
 The shadow represents the "part" of the stick that lies along the direction of the wall. It shows you where the stick would land if you were to "flatten" it directly onto that surface.
 
